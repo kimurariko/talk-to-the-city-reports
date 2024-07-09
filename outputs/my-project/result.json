@@ -1,0 +1,619 @@
+{
+  "clusters": [
+    {
+      "cluster": "Improving Sake Tasting Events",
+      "cluster_id": "0",
+      "takeaways": "Participants enjoyed sake tasting but found the serving size too small and expensive. They suggested either reducing prices or increasing serving sizes to enhance the experience. Each participant can try various sakes with 500 coins at the event.",
+      "arguments": [
+        {
+          "arg_id": "A7_0",
+          "argument": "It is enjoyable to try various types of sake, but the serving size of 30ml to 50ml (about the size of an ochoko cup) is appreciated, yet too small and expensive. After tasting, one would like to purchase their favorite sake, so it would be beneficial to either lower the price as part of the service or increase the volume per serving.",
+          "comment_id": "7",
+          "x": 2.581222,
+          "y": 15.518263,
+          "p": 0.0
+        },
+        {
+          "arg_id": "A12_0",
+          "argument": "With 500 coins, you can try various types of sake at the tasting event.",
+          "comment_id": "12",
+          "x": 3.4496353,
+          "y": 15.430999,
+          "p": 0.0
+        }
+      ]
+    },
+    {
+      "cluster": "Sake Tasting Event Experience",
+      "cluster_id": "1",
+      "takeaways": "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u65b0\u6f5f\u99c5\u306e\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u540d\u7523\u54c1\u304c\u697d\u3057\u3081\u308b\u3002\u671d\u30a4\u30c1\u53c2\u52a0\u306f\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u6709\u76ca\u304b\u3082\u3057\u308c\u306a\u3044\u3002",
+      "arguments": [
+        {
+          "arg_id": "A9_0",
+          "argument": "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u697d\u3057\u3044\u3068\u3055\u308c\u3066\u3044\u307e\u3059\u3002",
+          "comment_id": "9",
+          "x": 1.9549327,
+          "y": 14.796798,
+          "p": 0.0
+        },
+        {
+          "arg_id": "A9_1",
+          "argument": "\u65e5\u672c\u9152\u597d\u304d\u306a\u4eba\u306b\u3068\u3063\u3066\u3001\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306b\u53c2\u52a0\u3059\u308b\u3053\u3068\u306f\u640d\u306f\u306a\u3044\u3068\u601d\u308f\u308c\u307e\u3059\u3002",
+          "comment_id": "9",
+          "x": 2.8959687,
+          "y": 14.408491,
+          "p": 0.0
+        },
+        {
+          "arg_id": "A11_0",
+          "argument": "\u65b0\u6f5f\u99c5\u306f\u73fe\u5728\u3082\u5de5\u4e8b\u4e2d\u3067\u3059\u304c\u3001\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u65b0\u6f5f\u306e\u540d\u7523\u54c1\u304c\u8ca9\u58f2\u3055\u308c\u3066\u304a\u308a\u3001\u304a\u9152\u306b\u9650\u3089\u305a\u697d\u3057\u3081\u307e\u3059\u3002",
+          "comment_id": "11",
+          "x": 1.4607749,
+          "y": 14.234704,
+          "p": 0.0
+        },
+        {
+          "arg_id": "A11_1",
+          "argument": "\u671d\u30a4\u30c1\u304c\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u72d9\u3044\u76ee\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002",
+          "comment_id": "11",
+          "x": 2.3351243,
+          "y": 13.84466,
+          "p": 0.0
+        }
+      ]
+    },
+    {
+      "cluster": "Enhancing Artificial Intelligence Development",
+      "cluster_id": "2",
+      "takeaways": "Premium sake tastings may cost around 20 coins, with the option to purchase favored selections at the store.",
+      "arguments": [
+        {
+          "arg_id": "A12_1",
+          "argument": "Some premium sake options may require around 20 coins for a taste.",
+          "comment_id": "12",
+          "x": 2.741732,
+          "y": 16.294107,
+          "p": 0.0
+        },
+        {
+          "arg_id": "A12_2",
+          "argument": "If you find a sake you like, you can also purchase it at the store.",
+          "comment_id": "12",
+          "x": 1.847955,
+          "y": 15.879766,
+          "p": 0.0
+        }
+      ]
+    }
+  ],
+  "comments": {
+    "7": {
+      "comment": "\u69d8\ufffd\u306a\u65e5\u672c\u9152\u304c\u98f2\u3081\u308b\u306e\u306f\u5e78\u798f\u3067\u3059\u304c\u3001\u5b9f\u8cea\ufffd\ufffd\uff10\uff10\ufffd\u301c\u304a\u732a\u53e3\ufffd\u676f\u5223\ufffd\u3081\u308b(\u304a\u732a\u53e3\u306e\ufffd\ufffd\u5272\u7a0b\u5ea6\u306e\u5bb9\ufffd)\u306e\u306f\u3042\u308a\u304c\u305f\u3042\u3067\u3082\ufffd\ufffd\u304c\u5c11\u306a\u3059\u304e\u4e14\u3064\u5272\u9ad8\ufffd\u98f2\u3093\u3060\u5f8c\ufffd\u597d\u307f\u306e\u65e5\u672c\u9152\u3068\u8cfc\u5165\u3059\u308b\u3093\u3067\u3059\u304b\u3089\ufffd\u30b5\u30fc\u30d3\u30b9\u3092\u517c\u306d\u3066\u5024\u6bb5\u3092\u4e0b\ufffd_\u308b\u304b\u3001\ufffd\u676f\u5f53\u308a\u306e\u5bb9\u91cf\u3092\u5897\ufffd\ufffd\u3057\u3066\u6b32\u3057\u3044\ufffd"
+    },
+    "9": {
+      "comment": "\u65e5\u672c\u9152\u3092\u306f\u3058\u3081\u3001\u8272\u3093\u306a\u304a\u9152\u304c\u3042\u308a\u307e\u3059\ufffd\u7279\u306b\u65e5\u672c\u9152\ufffd\u8a66\u98f2\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u697d\u3057\u305d\u3041\ufffd\u3059\ufffd\u65e5\u672c\u9152\u597d\u304d\u306a\u4eba\u306b\u306f\u884c\u3063\u3066\u640d\ufffd\u306a\u3041\ufffd\u601d\u3044\u307e\u3059\ufffd"
+    },
+    "11": {
+      "comment": "\u65b0\u6f5f\u99c5\ufffd\u73fe\u5728\u3082\u5de5\u4e8b\ufffd\ufffd\u4e2d\u3067\u3059\u304c\u3001\u307d\u3093\u3057\u3085\u9928\u306f\u30d1\u30ef\u30fc\u30a2\ufffd\u3057\u3066\u3041\ufffd\u3059\ufffd\u304a\u9152\u306b\u9650\u3089\u305a\u65b0\u6f5f\ufffd\u540d\u7523\u304c\u591a\ufffd\u8ca9\u58f2\u3055\u308c\u3066\u3042\ufffd\u306e\u3067\u3001\u898b\u308b\ufffd\u3051\u3067\u3082\u697d\u3057\u3044\u3057\ufffd\u3064\u3041\ufffd\u3072\ufffd\u5e2e\u7d10\u304c\u3082\ufffd\u307f\u307e\u3059\ufffd\u4f1a\u8a08\u304c\u6df7\ufffd\u306e\u3067\u3001\u671d\u30a4\u30c1\u304c\u72d9\u3044\u76ee\u304b\u3082\ufffd"
+    },
+    "12": {
+      "comment": "500\u5181\ufffd\u30b3\u30a4\u30f3\ufffd\ufffd\u679a\u3092\u8cfc\u5165\u3057\ufffd\u304a\u732a\u53e3\ufffd\ufffd\u676f\u522e\u65e5\u672c\u9152\u3092\u8a66\u98f2\u3067\u304d\u307e\u3059\ufffd\u30b3\u30a4\u30f3\ufffd\ufffd\u679a\u3067\u98f2\u3081\u308b\u7a2e\u985e\u304c\u591a\u3044\u3067\u3059\u304c\u3001\u30d5\u30a1\u30fc\u30b9\u30c8\u30af\u30e9\u30b9\u3067\u63d0\u4f9b\u3055\u308c\u308b\u9ad8\u7d1a\u306a\u3082\ufffd\u306a\ufffd20\u679a\u307b\u3069\u5fc5\u8981\u306a\u3082\ufffd\u3082\u3042\u308a\u307e\u3059\ufffd\u597d\u307f\u306e\u65e5\u672c\u9152\u304c\u898b\u3064\u304b\u308c\u3070\u3001\u5e97\ufffd\u3067\u8cfc\u5165\u3082\u3067\u304d\u307e\u3059\ufffd"
+    }
+  },
+  "translations": {
+    "It is enjoyable to try various types of sake, but the serving size of 30ml to 50ml (about the size of an ochoko cup) is appreciated, yet too small and expensive. After tasting, one would like to purchase their favorite sake, so it would be beneficial to either lower the price as part of the service or increase the volume per serving.": [
+      "It is enjoyable to try various types of sake, but the serving size of 30ml to 50ml (about the size of an ochoko cup) is appreciated, yet too small and expensive. After tasting, one would like to purchase their favorite sake, so it would be beneficial to either lower the price as part of the service or increase the volume per serving."
+    ],
+    "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u697d\u3057\u3044\u3068\u3055\u308c\u3066\u3044\u307e\u3059\u3002": [
+      "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u697d\u3057\u3044\u3068\u3055\u308c\u3066\u3044\u307e\u3059\u3002"
+    ],
+    "\u65e5\u672c\u9152\u597d\u304d\u306a\u4eba\u306b\u3068\u3063\u3066\u3001\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306b\u53c2\u52a0\u3059\u308b\u3053\u3068\u306f\u640d\u306f\u306a\u3044\u3068\u601d\u308f\u308c\u307e\u3059\u3002": [
+      "\u65e5\u672c\u9152\u597d\u304d\u306a\u4eba\u306b\u3068\u3063\u3066\u3001\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306b\u53c2\u52a0\u3059\u308b\u3053\u3068\u306f\u640d\u306f\u306a\u3044\u3068\u601d\u308f\u308c\u307e\u3059\u3002"
+    ],
+    "\u65b0\u6f5f\u99c5\u306f\u73fe\u5728\u3082\u5de5\u4e8b\u4e2d\u3067\u3059\u304c\u3001\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u65b0\u6f5f\u306e\u540d\u7523\u54c1\u304c\u8ca9\u58f2\u3055\u308c\u3066\u304a\u308a\u3001\u304a\u9152\u306b\u9650\u3089\u305a\u697d\u3057\u3081\u307e\u3059\u3002": [
+      "\u65b0\u516d\u7532\u99c5\u306f\u73fe\u5728\u3082\u5de5\u4e8b\u4e2d\u3067\u3059\u304c\u3001\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u65b0\u516d\u7532\u306e\u540d\u7523\u54c1\u304c\u8ca9\u58f2\u3055\u308c\u3066\u304a\u308a\u3001\u304a\u9152\u306b\u9650\u3089\u305a\u697d\u3057\u3081\u307e\u3059\u3002"
+    ],
+    "\u671d\u30a4\u30c1\u304c\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u72d9\u3044\u76ee\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002": [
+      "\u671d\u30a4\u30c1\u304c\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u52b9\u679c\u7684\u3067\u3059\u3002"
+    ],
+    "With 500 coins, you can try various types of sake at the tasting event.": [
+      "500\u679a\u306e\u30b3\u30a4\u30f3\u3067\u3001\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u3067\u3055\u307e\u3056\u307e\u306a\u7a2e\u985e\u306e\u65e5\u672c\u9152\u3092\u8a66\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
+    ],
+    "Some premium sake options may require around 20 coins for a taste.": [
+      "\u4e00\u90e8\u306e\u30d7\u30ec\u30df\u30a2\u30e0\u306a\u65e5\u672c\u9152\u306f\u3001\u5473\u898b\u306b\u7d0420\u679a\u306e\u30b3\u30a4\u30f3\u304c\u5fc5\u8981\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002"
+    ],
+    "If you find a sake you like, you can also purchase it at the store.": [
+      "\u6c17\u306b\u5165\u3063\u305f\u65e5\u672c\u9152\u304c\u898b\u3064\u304b\u308c\u3070\u3001\u5e97\u8217\u3067\u3082\u8cfc\u5165\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"
+    ],
+    "Improving Sake Tasting Events": [
+      "\u65e5\u672c\u9152\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306e\u6539\u5584"
+    ],
+    "Sake Tasting Event Experience": [
+      "\u65e5\u672c\u9152\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u4f53\u9a13"
+    ],
+    "Enhancing Artificial Intelligence Development": [
+      "\u4eba\u5de5\u77e5\u80fd\u958b\u767a\u306e\u5411\u4e0a"
+    ],
+    "Argument": [
+      "\u8b70\u8ad6"
+    ],
+    "Original comment": [
+      "\u5143\u306e\u30b3\u30e1\u30f3\u30c8"
+    ],
+    "Representative arguments": [
+      "\u4ee3\u8868\u7684\u306a\u8b70\u8ad6"
+    ],
+    "Open full-screen map": [
+      "\u30d5\u30eb\u30b9\u30af\u30ea\u30fc\u30f3\u5730\u56f3\u3092\u958b\u304f"
+    ],
+    "Back to report": [
+      "\u30ec\u30dd\u30fc\u30c8\u306b\u623b\u308b"
+    ],
+    "Hide labels": [
+      "\u30e9\u30d9\u30eb\u3092\u975e\u8868\u793a"
+    ],
+    "Show labels": [
+      "\u30e9\u30d9\u30eb\u3092\u8868\u793a"
+    ],
+    "Show filters": [
+      "\u30d5\u30a3\u30eb\u30bf\u30fc\u3092\u8868\u793a"
+    ],
+    "Hide filters": [
+      "\u30d5\u30a3\u30eb\u30bf\u30fc\u3092\u975e\u8868\u793a"
+    ],
+    "Min. votes": [
+      "\u6700\u5c0f\u6295\u7968\u6570"
+    ],
+    "Consensus": [
+      "\u30b3\u30f3\u30bb\u30f3\u30b5\u30b9"
+    ],
+    "Showing": [
+      "\u8868\u793a\u4e2d"
+    ],
+    "arguments": [
+      "\u5f15\u6570"
+    ],
+    "Reset zoom": [
+      "\u30ba\u30fc\u30e0\u30ea\u30bb\u30c3\u30c8"
+    ],
+    "Click anywhere on the map to close this": [
+      "\u5730\u56f3\u4e0a\u306e\u3069\u3053\u304b\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u9589\u3058\u308b"
+    ],
+    "Click on the dot for details": [
+      "\u8a73\u7d30\u3092\u8868\u793a\u3059\u308b\u306b\u306f\u70b9\u3092\u30af\u30ea\u30c3\u30af"
+    ],
+    "agree": [
+      "\u540c\u610f\u3059\u308b"
+    ],
+    "disagree": [
+      "\u540c\u610f\u3057\u306a\u3044"
+    ],
+    "Language": [
+      "\u8a00\u8a9e"
+    ],
+    "English": [
+      "\u65e5\u672c\u8a9e"
+    ],
+    "of total": [
+      "\u306e\u5408\u8a08"
+    ],
+    "Overview": [
+      "\u6982\u8981"
+    ],
+    "Cluster analysis": [
+      "\u30af\u30e9\u30b9\u30bf\u30fc\u5206\u6790"
+    ],
+    "\u4ee3\u8868\u7684\u306a\u30b3\u30e1\u30f3\u30c8": [
+      "\u4ee3\u8868\u7684\u306a\u30b3\u30e1\u30f3\u30c8"
+    ],
+    "Introduction": [
+      "\u5c0e\u5165"
+    ],
+    "Clusters": [
+      "\u30af\u30e9\u30b9\u30bf\u30fc"
+    ],
+    "Appendix": [
+      "\u4ed8\u9332"
+    ],
+    "This report was generated using an AI pipeline that consists of the following steps": [
+      "\u3053\u306e\u30ec\u30dd\u30fc\u30c8\u306f\u3001\u4ee5\u4e0b\u306e\u624b\u9806\u3067\u69cb\u6210\u3055\u308c\u308bAI\u30d1\u30a4\u30d7\u30e9\u30a4\u30f3\u3092\u4f7f\u7528\u3057\u3066\u751f\u6210\u3055\u308c\u307e\u3057\u305f"
+    ],
+    "Step": [
+      "\u30b9\u30c6\u30c3\u30d7"
+    ],
+    "extraction": [
+      "\u62bd\u51fa"
+    ],
+    "show code": [
+      "\u30b3\u30fc\u30c9\u3092\u8868\u793a"
+    ],
+    "hide code": [
+      "\u30b3\u30fc\u30c9\u3092\u975e\u8868\u793a"
+    ],
+    "show prompt": [
+      "\u30d7\u30ed\u30f3\u30d7\u30c8\u3092\u8868\u793a"
+    ],
+    "hide prompt": [
+      "\u30d7\u30ed\u30f3\u30d7\u30c8\u3092\u975e\u8868\u793a"
+    ],
+    "embedding": [
+      "\u57cb\u3081\u8fbc\u307f"
+    ],
+    "clustering": [
+      "\u30af\u30e9\u30b9\u30bf\u30ea\u30f3\u30b0"
+    ],
+    "labelling": [
+      "\u30e9\u30d9\u30ea\u30f3\u30b0"
+    ],
+    "takeaways": [
+      "\u307e\u3068\u3081"
+    ],
+    "overview": [
+      "\u6982\u8981"
+    ],
+    "Japanese": [
+      "\u65e5\u672c\u8a9e"
+    ],
+    "Recursive Public, Agenda Setting": [
+      "\u518d\u5e30\u7684\u306a\u30d1\u30d6\u30ea\u30c3\u30af\u3001\u30a2\u30b8\u30a7\u30f3\u30c0\u8a2d\u5b9a"
+    ],
+    "\u65b0\u6f5f\u306e\u89b3\u5149\u5730\u307d\u3093\u3057\u3085\u9928\u306e\u611f\u60f3": [
+      "\u65b0\u6e21\u6238\u306e\u5149\u5730\u307d\u3093\u3057\u3085\u3046\u9928\u306e\u611f\u60f3"
+    ],
+    "Participants enjoyed sake tasting but found the serving size too small and expensive. They suggested either reducing prices or increasing serving sizes to enhance the experience. Each participant can try various sakes with 500 coins at the event.": [
+      "\u53c2\u52a0\u8005\u306f\u65e5\u672c\u9152\u306e\u8a66\u98f2\u3092\u697d\u3057\u3093\u3060\u304c\u3001\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u304c\u5c0f\u3055\u3059\u304e\u3066\u9ad8\u4fa1\u3060\u3068\u611f\u3058\u305f\u3002\u4f53\u9a13\u3092\u5411\u4e0a\u3055\u305b\u308b\u305f\u3081\u306b\u3001\u4fa1\u683c\u3092\u4e0b\u3052\u308b\u304b\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u3092\u5897\u3084\u3059\u3053\u3068\u3092\u63d0\u6848\u3057\u305f\u3002\u5404\u53c2\u52a0\u8005\u306f\u30a4\u30d9\u30f3\u30c8\u3067500\u30b3\u30a4\u30f3\u3067\u3055\u307e\u3056\u307e\u306a\u65e5\u672c\u9152\u3092\u8a66\u3059\u3053\u3068\u304c\u3067\u304d\u308b\u3002"
+    ],
+    "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u65b0\u6f5f\u99c5\u306e\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u540d\u7523\u54c1\u304c\u697d\u3057\u3081\u308b\u3002\u671d\u30a4\u30c1\u53c2\u52a0\u306f\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u6709\u76ca\u304b\u3082\u3057\u308c\u306a\u3044\u3002": [
+      "\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u3001\u7279\u306b\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u4eba\u6c17\u304c\u3042\u308a\u3001\u65b0\u6f5f\u99c5\u306e\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u540d\u7523\u54c1\u304c\u697d\u3057\u3044\u3002\u671d\u30a4\u30c1\u53c2\u52a0\u306f\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u6709\u52b9\u304b\u3082\u3057\u308c\u306a\u3044\u3002"
+    ],
+    "Premium sake tastings may cost around 20 coins, with the option to purchase favored selections at the store.": [
+      "\u30d7\u30ec\u30df\u30a2\u30e0\u306a\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u3001\u304a\u5e97\u3067\u304a\u6c17\u306b\u5165\u308a\u306e\u9298\u67c4\u3092\u8cfc\u5165\u3059\u308b\u30aa\u30d7\u30b7\u30e7\u30f3\u3082\u542b\u3081\u3066\u3001\u7d0420\u30b3\u30a4\u30f3\u304b\u304b\u308b\u3053\u3068\u304c\u3042\u308a\u307e\u3059\u3002"
+    ],
+    "\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u306e\u7814\u7a76\u3067\u306f\u3001\u65e5\u672c\u9152\u306e\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306b\u95a2\u3059\u308b\u30af\u30e9\u30b9\u30bf\u30fc\u304c\u3044\u304f\u3064\u304b\u7279\u5b9a\u3055\u308c\u307e\u3057\u305f\u3002\u53c2\u52a0\u8005\u306f\u8a66\u98f2\u3092\u697d\u3057\u3093\u3067\u3044\u307e\u3057\u305f\u304c\u3001\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u304c\u5c0f\u3055\u3059\u304e\u308b\u3068\u611f\u3058\u3001\u4fa1\u683c\u304c\u9ad8\u3044\u3068\u6307\u6458\u3057\u3066\u3044\u307e\u3059\u3002\u6539\u5584\u7b56\u3068\u3057\u3066\u3001\u4fa1\u683c\u306e\u5f15\u304d\u4e0b\u3052\u3084\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u306e\u62e1\u5927\u304c\u63d0\u6848\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u307e\u305f\u3001500\u30b3\u30a4\u30f3\u3067\u69d8\u3005\u306a\u65e5\u672c\u9152\u3092\u8a66\u3059\u3053\u3068\u304c\u3067\u304d\u308b\u3068\u306e\u3053\u3068\u3067\u3059\u3002\u307e\u305f\u3001\u65b0\u6f5f\u99c5\u306e\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u540d\u7523\u54c1\u304c\u697d\u3057\u3081\u3001\u671d\u30a4\u30c1\u53c2\u52a0\u306f\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u6709\u76ca\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002\u3055\u3089\u306b\u3001\u30d7\u30ec\u30df\u30a2\u30e0\u306a\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u7d0420\u30b3\u30a4\u30f3\u3067\u63d0\u4f9b\u3055\u308c\u3001\u597d\u307f\u306e\u9298\u67c4\u3092\u8cfc\u5165\u3059\u308b\u30aa\u30d7\u30b7\u30e7\u30f3\u3082\u3042\u308b\u3088\u3046\u3067\u3059\u3002": [
+      "Shinkutanku no kenky\u016b de wa, Nihonshu no tameshi nomi ibent\u014d ni kansuru kurasut\u0101 ga ikutsu ka tokutei saremasu. Sankasha wa tameshi nomi o tanoshinde imashita ga, s\u0101bingu saizu ga chiisaku naru to kanji, kakaku ga takai to sasage shite imasu. Kaizen sakuhin to shite, kakaku no hikidashiage ya s\u0101bingu saizu no kakudai ga teian saremasu. Mata, 500 koin de various na Nihonshu o tamesu koto ga dekiru to no koto desu. Mata, Shin-Osaka-eki no donsuigy\u014d de wa meish\u014dhin ga tanoshage, asaichi sankasha wa konran o yokebaru no ni y\u016bka bakumon ka mo shiremasen. Sakan ni, puremiamu na Nihonshu no tameshi nomi wa 20 koin de teiky\u014d sare, yoshi no nuki o k\u014dny\u016b suru opushon mo aru y\u014ddesu."
+    ],
+    "XXXXXXXXXXXXX": [
+      "XXXXXXXXXXXXX"
+    ]
+  },
+  "overview": "\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u306e\u7814\u7a76\u3067\u306f\u3001\u65e5\u672c\u9152\u306e\u8a66\u98f2\u30a4\u30d9\u30f3\u30c8\u306b\u95a2\u3059\u308b\u30af\u30e9\u30b9\u30bf\u30fc\u304c\u3044\u304f\u3064\u304b\u7279\u5b9a\u3055\u308c\u307e\u3057\u305f\u3002\u53c2\u52a0\u8005\u306f\u8a66\u98f2\u3092\u697d\u3057\u3093\u3067\u3044\u307e\u3057\u305f\u304c\u3001\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u304c\u5c0f\u3055\u3059\u304e\u308b\u3068\u611f\u3058\u3001\u4fa1\u683c\u304c\u9ad8\u3044\u3068\u6307\u6458\u3057\u3066\u3044\u307e\u3059\u3002\u6539\u5584\u7b56\u3068\u3057\u3066\u3001\u4fa1\u683c\u306e\u5f15\u304d\u4e0b\u3052\u3084\u30b5\u30fc\u30d3\u30f3\u30b0\u30b5\u30a4\u30ba\u306e\u62e1\u5927\u304c\u63d0\u6848\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u307e\u305f\u3001500\u30b3\u30a4\u30f3\u3067\u69d8\u3005\u306a\u65e5\u672c\u9152\u3092\u8a66\u3059\u3053\u3068\u304c\u3067\u304d\u308b\u3068\u306e\u3053\u3068\u3067\u3059\u3002\u307e\u305f\u3001\u65b0\u6f5f\u99c5\u306e\u307d\u3093\u3057\u3085\u9928\u3067\u306f\u540d\u7523\u54c1\u304c\u697d\u3057\u3081\u3001\u671d\u30a4\u30c1\u53c2\u52a0\u306f\u6df7\u96d1\u3092\u907f\u3051\u308b\u306e\u306b\u6709\u76ca\u304b\u3082\u3057\u308c\u307e\u305b\u3093\u3002\u3055\u3089\u306b\u3001\u30d7\u30ec\u30df\u30a2\u30e0\u306a\u65e5\u672c\u9152\u306e\u8a66\u98f2\u306f\u7d0420\u30b3\u30a4\u30f3\u3067\u63d0\u4f9b\u3055\u308c\u3001\u597d\u307f\u306e\u9298\u67c4\u3092\u8cfc\u5165\u3059\u308b\u30aa\u30d7\u30b7\u30e7\u30f3\u3082\u3042\u308b\u3088\u3046\u3067\u3059\u3002",
+  "config": {
+    "name": "Recursive Public, Agenda Setting",
+    "question": "\u65b0\u6f5f\u306e\u89b3\u5149\u5730\u307d\u3093\u3057\u3085\u9928\u306e\u611f\u60f3",
+    "input": "my-data",
+    "model": "gpt-3.5-turbo",
+    "extraction": {
+      "workers": 3,
+      "limit": 12,
+      "source_code": "import os\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\nimport concurrent.futures\n\n\ndef extraction(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/args.csv\"\n    print(f'path:{path}')\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    print(f'comments.columns:{comments.columns}')\n\n    model = config['extraction']['model']\n    prompt = config['extraction']['prompt']\n    workers = config['extraction']['workers']\n    limit = config['extraction']['limit']\n\n    comment_ids = (comments['comment-id'].values)[:limit]\n    comments.set_index('comment-id', inplace=True)\n    results = pd.DataFrame()\n    update_progress(config, total=len(comment_ids))\n    for i in tqdm(range(0, len(comment_ids), workers)):\n        batch = comment_ids[i: i + workers]\n        batch_inputs = [comments.loc[id]['comment-body'] for id in batch]\n        batch_results = extract_batch(batch_inputs, prompt, model, workers)\n        for comment_id, extracted_args in zip(batch, batch_results):\n            for j, arg in enumerate(extracted_args):\n                new_row = {\"arg-id\": f\"A{comment_id}_{j}\",\n                           \"comment-id\": int(comment_id), \"argument\": arg}\n                results = pd.concat(\n                    [results, pd.DataFrame([new_row])], ignore_index=True)\n        update_progress(config, incr=len(batch))\n    results.to_csv(path, index=False)\n    print(results.info())\n\n\ndef extract_batch(batch, prompt, model, workers):\n    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:\n        futures = [executor.submit(\n            extract_arguments, input, prompt, model) for input in list(batch)]\n        concurrent.futures.wait(futures)\n        return [future.result() for future in futures]\n\n\ndef extract_arguments(input, prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    try:\n        obj = json.loads(response)\n        # LLM sometimes returns valid JSON string\n        if isinstance(obj, str):\n            obj = [obj]\n        items = [a.strip() for a in obj]\n        items = filter(None, items)  # omit empty strings\n        return items\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Input was:\", input)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying...\")\n            return extract_arguments(input, prompt, model, retries - 1)\n        else:\n            print(\"Silently giving up on trying to generate valid list.\")\n            return []\n",
+      "prompt": "/system\n\nYou are a professional research assistant and your job is to help \nme prepare a nice and clean datasets of arguments. \n\nThe context is that we have run a public consultation on the \ntopic of artificial intelligence. I'm going to give you examples \nof arguments that were contributed by the public and I want you \nto help me make them more concise and easy to read. When really \nnecessary, you can also break it down into two separate arguments, \nbut it will often be best to return a single arguments. \n\nPlease return the result as a well-formatted JSON list of strings. \n\n/human\n\nAI technologies should be developed with a focus on reducing their own \nenvironmental impact over their lifecycle.\n\n/ai \n\n[\n  \"We should focus on reducing the environmental impact of AI technologies\"\n]\n\n/human \n\nThere should be a concerted effort to educate the public about the \ncapabilities, limitations, and ethical considerations of AI.\n\n/ai \n\n[\n  \"We should educate the public about the capabilities of AI\",\n  \"We should educate the public about the limitations and ethical considerations of AI\"\n]\n\n/human \n\nAI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\n\n/ ai \n\n[\n  \"AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\"\n]\n\n/human \n\nAI can help optimize energy grids, reducing waste and carbon emissions.\n\n/ai \n\n[\n  \"AI could optimize energy grids to reduce waste and carbon emissions.\"\n]\n\n",
+      "model": "gpt-3.5-turbo"
+    },
+    "clustering": {
+      "clusters": 3,
+      "source_code": "\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\"\n\nimport pandas as pd\nimport numpy as np\nfrom importlib import import_module\n\n\ndef clustering(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/clusters.csv\"\n    arguments_df = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    arguments_array = arguments_df[\"argument\"].values\n\n    embeddings_df = pd.read_pickle(f\"outputs/{dataset}/embeddings.pkl\")\n    embeddings_array = np.asarray(embeddings_df[\"embedding\"].values.tolist())\n    clusters = config['clustering']['clusters']\n\n    result = cluster_embeddings(\n        docs=arguments_array,\n        embeddings=embeddings_array,\n        metadatas={\n            \"arg-id\": arguments_df[\"arg-id\"].values,\n            \"comment-id\": arguments_df[\"comment-id\"].values,\n        },\n        n_topics=clusters,\n    )\n    result.to_csv(path, index=False)\n\n\ndef cluster_embeddings(\n    docs,\n    embeddings,\n    metadatas,\n    min_cluster_size=2,\n    n_components=2,\n    n_topics=6,\n):\n    # (!) we import the following modules dynamically for a reason\n    # (they are slow to load and not required for all pipelines)\n    SpectralClustering = import_module('sklearn.cluster').SpectralClustering\n    stopwords = import_module('nltk.corpus').stopwords\n    HDBSCAN = import_module('hdbscan').HDBSCAN\n    UMAP = import_module('umap').UMAP\n    CountVectorizer = import_module(\n        'sklearn.feature_extraction.text').CountVectorizer\n    BERTopic = import_module('bertopic').BERTopic\n\n    umap_model = UMAP(\n        random_state=42,\n        n_components=n_components,\n    )\n    hdbscan_model = HDBSCAN(min_cluster_size=min_cluster_size)\n\n    stop = stopwords.words(\"english\")\n    vectorizer_model = CountVectorizer(stop_words=stop)\n    topic_model = BERTopic(\n        umap_model=umap_model,\n        hdbscan_model=hdbscan_model,\n        vectorizer_model=vectorizer_model,\n        verbose=True,\n    )\n\n    # Fit the topic model.\n    _, __ = topic_model.fit_transform(docs, embeddings=embeddings)\n\n    n_samples = len(embeddings)\n    n_neighbors = min(n_samples - 1, 10)\n    spectral_model = SpectralClustering(\n        n_clusters=n_topics,\n        affinity=\"nearest_neighbors\",\n        n_neighbors=n_neighbors,  # Use the modified n_neighbors\n        random_state=42\n    )\n    umap_embeds = umap_model.fit_transform(embeddings)\n    cluster_labels = spectral_model.fit_predict(umap_embeds)\n\n    result = topic_model.get_document_info(\n        docs=docs,\n        metadata={\n            **metadatas,\n            \"x\": umap_embeds[:, 0],\n            \"y\": umap_embeds[:, 1],\n        },\n    )\n\n    result.columns = [c.lower() for c in result.columns]\n    result = result[['arg-id', 'x', 'y', 'probability']]\n    result['cluster-id'] = cluster_labels\n\n    return result\n"
+    },
+    "translation": {
+      "model": "gpt-4",
+      "languages": [
+        "Japanese"
+      ],
+      "flags": [],
+      "source_code": "\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages\nfrom langchain.schema import AIMessage\nimport pandas as pd\nimport json\nfrom tqdm import tqdm\n\n\ndef translation(config):\n\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/translations.json\"\n    results = {}\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) == 0:\n        print(\"No languages specified. Skipping translation step.\")\n        # creating an empty file any, to reduce special casing later\n        with open(path, 'w') as file:\n            json.dump(results, file, indent=2)\n        return\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    with open(f\"outputs/{dataset}/overview.txt\") as f:\n        overview = f.read()\n\n    UI_copy = [\"Argument\", \"Original comment\", \"Representative arguments\",\n               \"Open full-screen map\", \"Back to report\", \"Hide labels\", \"Show labels\",\n               \"Show filters\", \"Hide filters\", \"Min. votes\", \"Consensus\",\n               \"Showing\", \"arguments\", \"Reset zoom\", \"Click anywhere on the map to close this\",\n               \"Click on the dot for details\",\n               \"agree\", \"disagree\", \"Language\", \"English\", \"arguments\", \"of total\",\n               \"Overview\", \"Cluster analysis\", \"\u4ee3\u8868\u7684\u306a\u30b3\u30e1\u30f3\u30c8\", \"Introduction\",\n               \"Clusters\", \"Appendix\", \"This report was generated using an AI pipeline that consists of the following steps\",\n               \"Step\", \"extraction\", \"show code\", \"hide code\", \"show prompt\", \"hide prompt\", \"embedding\",\n               \"clustering\", \"labelling\", \"takeaways\", \"overview\"]\n\n    arg_list = arguments['argument'].to_list() + \\\n        labels['label'].to_list() + \\\n        UI_copy + \\\n        languages\n\n    if 'name' in config:\n        arg_list.append(config['name'])\n    if 'question' in config:\n        arg_list.append(config['question'])\n\n    prompt_file = config.get('translation_prompt', 'default')\n    with open(f\"prompts/translation/{prompt_file}.txt\") as f:\n        prompt = f.read()\n    model = config['model']\n\n    config['translation_prompt'] = prompt\n\n    translations = [translate_lang(\n        arg_list, 10, prompt, lang, model) for lang in languages]\n\n    # handling long takeaways differently, WITHOUT batching too much\n    long_arg_list = takeaways['takeaways'].to_list()\n    long_arg_list.append(overview)\n    if 'intro' in config:\n        long_arg_list.append(config['intro'])\n\n    long_translations = [translate_lang(\n        long_arg_list, 1, prompt, lang, model) for lang in languages]\n\n    for i, id in enumerate(arg_list):\n        print('i, id', i, id)\n        results[str(id)] = list([t[i] for t in translations])\n    for i, id in enumerate(long_arg_list):\n        results[str(id)] = list([t[i] for t in long_translations])\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n\n\ndef translate_lang(arg_list, batch_size, prompt, lang, model):\n    translations = []\n    lang_prompt = prompt.replace(\"{language}\", lang)\n    print(f\"Translating to {lang}...\")\n    for i in tqdm(range(0, len(arg_list), batch_size)):\n        batch = arg_list[i: i + batch_size]\n        translations.extend(translate_batch(batch, lang_prompt, model))\n    return translations\n\n\ndef translate_batch(batch, lang_prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = json.dumps(list(batch))\n    response = llm(messages=messages(lang_prompt, input)).content.strip()\n    if \"```\" in response:\n        response = response.split(\"```\")[1]\n    if response.startswith(\"json\"):\n        response = response[4:]\n    try:\n        parsed = [a.strip() for a in json.loads(response)]\n        if len(parsed) != len(batch):\n            print(\"Warning: batch size mismatch!\")\n            print(\"Batch len:\", len(batch))\n            print(\"Response len:\", len(parsed))\n            for i, item in enumerate(batch):\n                print(f\"Batch item {i}:\", item)\n                if (i < len(parsed)):\n                    print(\"Response:\", parsed[i])\n            if (len(batch) > 1):\n                print(\"Retrying with smaller batches...\")\n                mid = len(batch) // 2\n                return translate_batch(batch[:mid], lang_prompt, model, retries - 1) + \\\n                    translate_batch(\n                        batch[mid:], lang_prompt, model, retries - 1)\n            else:\n                print(\"Retrying batch...\")\n                return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            return parsed\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying batch...\")\n            return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            raise e\n",
+      "prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]"
+    },
+    "intro": "XXXXXXXXXXXXX",
+    "output_dir": "my-project",
+    "previous": {
+      "name": "Recursive Public, Agenda Setting",
+      "question": "\u65b0\u6f5f\u306e\u89b3\u5149\u5730\u307d\u3093\u3057\u3085\u9928\u306e\u611f\u60f3",
+      "input": "my-data",
+      "model": "gpt-3.5-turbo",
+      "extraction": {
+        "workers": 3,
+        "limit": 12,
+        "source_code": "import os\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\nimport concurrent.futures\n\n\ndef extraction(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/args.csv\"\n    print(f'path:{path}')\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    print(f'comments.columns:{comments.columns}')\n\n    model = config['extraction']['model']\n    prompt = config['extraction']['prompt']\n    workers = config['extraction']['workers']\n    limit = config['extraction']['limit']\n\n    comment_ids = (comments['comment-id'].values)[:limit]\n    comments.set_index('comment-id', inplace=True)\n    results = pd.DataFrame()\n    update_progress(config, total=len(comment_ids))\n    for i in tqdm(range(0, len(comment_ids), workers)):\n        batch = comment_ids[i: i + workers]\n        batch_inputs = [comments.loc[id]['comment-body'] for id in batch]\n        batch_results = extract_batch(batch_inputs, prompt, model, workers)\n        for comment_id, extracted_args in zip(batch, batch_results):\n            for j, arg in enumerate(extracted_args):\n                new_row = {\"arg-id\": f\"A{comment_id}_{j}\",\n                           \"comment-id\": int(comment_id), \"argument\": arg}\n                results = pd.concat(\n                    [results, pd.DataFrame([new_row])], ignore_index=True)\n        update_progress(config, incr=len(batch))\n    results.to_csv(path, index=False)\n    print(results.info())\n\n\ndef extract_batch(batch, prompt, model, workers):\n    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:\n        futures = [executor.submit(\n            extract_arguments, input, prompt, model) for input in list(batch)]\n        concurrent.futures.wait(futures)\n        return [future.result() for future in futures]\n\n\ndef extract_arguments(input, prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    try:\n        obj = json.loads(response)\n        # LLM sometimes returns valid JSON string\n        if isinstance(obj, str):\n            obj = [obj]\n        items = [a.strip() for a in obj]\n        items = filter(None, items)  # omit empty strings\n        return items\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Input was:\", input)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying...\")\n            return extract_arguments(input, prompt, model, retries - 1)\n        else:\n            print(\"Silently giving up on trying to generate valid list.\")\n            return []\n",
+        "prompt": "/system\n\nYou are a professional research assistant and your job is to help \nme prepare a nice and clean datasets of arguments. \n\nThe context is that we have run a public consultation on the \ntopic of artificial intelligence. I'm going to give you examples \nof arguments that were contributed by the public and I want you \nto help me make them more concise and easy to read. When really \nnecessary, you can also break it down into two separate arguments, \nbut it will often be best to return a single arguments. \n\nPlease return the result as a well-formatted JSON list of strings. \n\n/human\n\nAI technologies should be developed with a focus on reducing their own \nenvironmental impact over their lifecycle.\n\n/ai \n\n[\n  \"We should focus on reducing the environmental impact of AI technologies\"\n]\n\n/human \n\nThere should be a concerted effort to educate the public about the \ncapabilities, limitations, and ethical considerations of AI.\n\n/ai \n\n[\n  \"We should educate the public about the capabilities of AI\",\n  \"We should educate the public about the limitations and ethical considerations of AI\"\n]\n\n/human \n\nAI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\n\n/ ai \n\n[\n  \"AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\"\n]\n\n/human \n\nAI can help optimize energy grids, reducing waste and carbon emissions.\n\n/ai \n\n[\n  \"AI could optimize energy grids to reduce waste and carbon emissions.\"\n]\n\n",
+        "model": "gpt-3.5-turbo"
+      },
+      "clustering": {
+        "clusters": 3,
+        "source_code": "\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\"\n\nimport pandas as pd\nimport numpy as np\nfrom importlib import import_module\n\n\ndef clustering(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/clusters.csv\"\n    arguments_df = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    arguments_array = arguments_df[\"argument\"].values\n\n    embeddings_df = pd.read_pickle(f\"outputs/{dataset}/embeddings.pkl\")\n    embeddings_array = np.asarray(embeddings_df[\"embedding\"].values.tolist())\n    clusters = config['clustering']['clusters']\n\n    result = cluster_embeddings(\n        docs=arguments_array,\n        embeddings=embeddings_array,\n        metadatas={\n            \"arg-id\": arguments_df[\"arg-id\"].values,\n            \"comment-id\": arguments_df[\"comment-id\"].values,\n        },\n        n_topics=clusters,\n    )\n    result.to_csv(path, index=False)\n\n\ndef cluster_embeddings(\n    docs,\n    embeddings,\n    metadatas,\n    min_cluster_size=2,\n    n_components=2,\n    n_topics=6,\n):\n    # (!) we import the following modules dynamically for a reason\n    # (they are slow to load and not required for all pipelines)\n    SpectralClustering = import_module('sklearn.cluster').SpectralClustering\n    stopwords = import_module('nltk.corpus').stopwords\n    HDBSCAN = import_module('hdbscan').HDBSCAN\n    UMAP = import_module('umap').UMAP\n    CountVectorizer = import_module(\n        'sklearn.feature_extraction.text').CountVectorizer\n    BERTopic = import_module('bertopic').BERTopic\n\n    umap_model = UMAP(\n        random_state=42,\n        n_components=n_components,\n    )\n    hdbscan_model = HDBSCAN(min_cluster_size=min_cluster_size)\n\n    stop = stopwords.words(\"english\")\n    vectorizer_model = CountVectorizer(stop_words=stop)\n    topic_model = BERTopic(\n        umap_model=umap_model,\n        hdbscan_model=hdbscan_model,\n        vectorizer_model=vectorizer_model,\n        verbose=True,\n    )\n\n    # Fit the topic model.\n    _, __ = topic_model.fit_transform(docs, embeddings=embeddings)\n\n    n_samples = len(embeddings)\n    n_neighbors = min(n_samples - 1, 10)\n    spectral_model = SpectralClustering(\n        n_clusters=n_topics,\n        affinity=\"nearest_neighbors\",\n        n_neighbors=n_neighbors,  # Use the modified n_neighbors\n        random_state=42\n    )\n    umap_embeds = umap_model.fit_transform(embeddings)\n    cluster_labels = spectral_model.fit_predict(umap_embeds)\n\n    result = topic_model.get_document_info(\n        docs=docs,\n        metadata={\n            **metadatas,\n            \"x\": umap_embeds[:, 0],\n            \"y\": umap_embeds[:, 1],\n        },\n    )\n\n    result.columns = [c.lower() for c in result.columns]\n    result = result[['arg-id', 'x', 'y', 'probability']]\n    result['cluster-id'] = cluster_labels\n\n    return result\n"
+      },
+      "translation": {
+        "model": "gpt-4",
+        "languages": [
+          "Japanese"
+        ],
+        "flags": [],
+        "source_code": "\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages\nfrom langchain.schema import AIMessage\nimport pandas as pd\nimport json\nfrom tqdm import tqdm\n\n\ndef translation(config):\n\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/translations.json\"\n    results = {}\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) == 0:\n        print(\"No languages specified. Skipping translation step.\")\n        # creating an empty file any, to reduce special casing later\n        with open(path, 'w') as file:\n            json.dump(results, file, indent=2)\n        return\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    with open(f\"outputs/{dataset}/overview.txt\") as f:\n        overview = f.read()\n\n    UI_copy = [\"Argument\", \"Original comment\", \"Representative arguments\",\n               \"Open full-screen map\", \"Back to report\", \"Hide labels\", \"Show labels\",\n               \"Show filters\", \"Hide filters\", \"Min. votes\", \"Consensus\",\n               \"Showing\", \"arguments\", \"Reset zoom\", \"Click anywhere on the map to close this\",\n               \"Click on the dot for details\",\n               \"agree\", \"disagree\", \"Language\", \"English\", \"arguments\", \"of total\",\n               \"Overview\", \"Cluster analysis\", \"Representative comments\", \"Introduction\",\n               \"Clusters\", \"Appendix\", \"This report was generated using an AI pipeline that consists of the following steps\",\n               \"Step\", \"extraction\", \"show code\", \"hide code\", \"show prompt\", \"hide prompt\", \"embedding\",\n               \"clustering\", \"labelling\", \"takeaways\", \"overview\"]\n\n    arg_list = arguments['argument'].to_list() + \\\n        labels['label'].to_list() + \\\n        UI_copy + \\\n        languages\n\n    if 'name' in config:\n        arg_list.append(config['name'])\n    if 'question' in config:\n        arg_list.append(config['question'])\n\n    prompt_file = config.get('translation_prompt', 'default')\n    with open(f\"prompts/translation/{prompt_file}.txt\") as f:\n        prompt = f.read()\n    model = config['model']\n\n    config['translation_prompt'] = prompt\n\n    translations = [translate_lang(\n        arg_list, 10, prompt, lang, model) for lang in languages]\n\n    # handling long takeaways differently, WITHOUT batching too much\n    long_arg_list = takeaways['takeaways'].to_list()\n    long_arg_list.append(overview)\n    if 'intro' in config:\n        long_arg_list.append(config['intro'])\n\n    long_translations = [translate_lang(\n        long_arg_list, 1, prompt, lang, model) for lang in languages]\n\n    for i, id in enumerate(arg_list):\n        print('i, id', i, id)\n        results[str(id)] = list([t[i] for t in translations])\n    for i, id in enumerate(long_arg_list):\n        results[str(id)] = list([t[i] for t in long_translations])\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n\n\ndef translate_lang(arg_list, batch_size, prompt, lang, model):\n    translations = []\n    lang_prompt = prompt.replace(\"{language}\", lang)\n    print(f\"Translating to {lang}...\")\n    for i in tqdm(range(0, len(arg_list), batch_size)):\n        batch = arg_list[i: i + batch_size]\n        translations.extend(translate_batch(batch, lang_prompt, model))\n    return translations\n\n\ndef translate_batch(batch, lang_prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = json.dumps(list(batch))\n    response = llm(messages=messages(lang_prompt, input)).content.strip()\n    if \"```\" in response:\n        response = response.split(\"```\")[1]\n    if response.startswith(\"json\"):\n        response = response[4:]\n    try:\n        parsed = [a.strip() for a in json.loads(response)]\n        if len(parsed) != len(batch):\n            print(\"Warning: batch size mismatch!\")\n            print(\"Batch len:\", len(batch))\n            print(\"Response len:\", len(parsed))\n            for i, item in enumerate(batch):\n                print(f\"Batch item {i}:\", item)\n                if (i < len(parsed)):\n                    print(\"Response:\", parsed[i])\n            if (len(batch) > 1):\n                print(\"Retrying with smaller batches...\")\n                mid = len(batch) // 2\n                return translate_batch(batch[:mid], lang_prompt, model, retries - 1) + \\\n                    translate_batch(\n                        batch[mid:], lang_prompt, model, retries - 1)\n            else:\n                print(\"Retrying batch...\")\n                return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            return parsed\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying batch...\")\n            return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            raise e\n",
+        "prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]"
+      },
+      "intro": "XXXXXXXXXXXXX",
+      "output_dir": "my-project",
+      "embedding": {
+        "source_code": "\nfrom langchain.embeddings import OpenAIEmbeddings\nimport pandas as pd\nfrom tqdm import tqdm\n\n\ndef embedding(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/embeddings.pkl\"\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    embeddings = []\n    for i in tqdm(range(0, len(arguments), 1000)):\n        args = arguments[\"argument\"].tolist()[i: i + 1000]\n        embeds = OpenAIEmbeddings().embed_documents(args)\n        embeddings.extend(embeds)\n    df = pd.DataFrame(\n        [\n            {\"arg-id\": arguments.iloc[i][\"arg-id\"], \"embedding\": e}\n            for i, e in enumerate(embeddings)\n        ]\n    )\n    df.to_pickle(path)\n"
+      },
+      "labelling": {
+        "sample_size": 30,
+        "source_code": "\"\"\"Create labels for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef labelling(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/labels.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['labelling']['sample_size']\n    prompt = config['labelling']['prompt']\n    model = config['labelling']['model']\n\n    question = config['question']\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n\n        args_ids_outside = clusters[clusters['cluster-id']\n                                    != cluster_id]['arg-id'].values\n        args_ids_outside = np.random.choice(args_ids_outside, size=min(\n            len(args_ids_outside), sample_size), replace=False)\n        args_sample_outside = arguments[arguments['arg-id']\n                                        .isin(args_ids_outside)]['argument'].values\n\n        label = generate_label(question, args_sample,\n                               args_sample_outside, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'label': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_label(question, args_sample, args_sample_outside, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    outside = '\\n * ' + '\\n * '.join(args_sample_outside)\n    inside = '\\n * ' + '\\n * '.join(args_sample)\n    input = f\"Question of the consultation:{question}\\n\\n\" + \\\n        f\"Examples of arguments OUTSIDE the cluster:\\n {outside}\" + \\\n        f\"Examples of arguments INSIDE the cluster:\\n {inside}\"\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+        "prompt": "/system \n\nYou are a category labeling assistant that generates a category label \nfor a set of arguments within a broader consultation. You are given the main question \nof the consultation, list of arguments inside the cluster, and a list of arguments \noutside this cluster. You answer with a single category label that summarizes the \ncluster. \n\nYou do not include context that is already obvious from the question (for example: \nif the question of the consultation is something like \"what challenges are you facing \nin France\", there is no need to repeat \"in France\" in the cluster label).\n\nThe label must be very concise and just precise enough to capture what distinguishes \nthe cluster from the arguments found outside. \n\n/human\n\nQuestion of the consultation: \"What do you think has been the impact of the UK decision to leave the EU?\"\n\nExamples of arguments OUTSIDE the cluster of interest:\n\n * We faced limitations in educational and cultural exchange opportunities due to exclusion from the Erasmus program.\n * The UK dealt with longer travel times caused by increased border checks, affecting commuters and vacationers.\n * We saw reduced cooperation in environmental standards, hindering efforts to combat climate change.\n * I experienced challenges in patient care due to disruptions in reciprocal healthcare agreements.\n * We faced complexity in residency and citizenship applications for families due to Brexit-related changes.\n * The UK witnessed hindrance in global efforts to address research challenges due to reduced collaboration opportunities.\n * We faced limitations in creative projects due to exclusion from EU cultural funding programs.\n * The UK witnessed setbacks in charitable initiatives and community support due to the loss of EU funding.\n * We experienced challenges in cross-border dispute resolution due to weakened consumer protections.\n * The UK faced limitations in touring EU countries as professional musicians, impacting careers.\n\nExamples of arguments inside the cluster:\n\n * We experienced supply chain disruptions due to Brexit, leading to increased costs and delayed deliveries for businesses.\n * I faced market fluctuations and uncertainties in investments and retirement savings because of Brexit.\n * The UK dealt with reduced profit margins as an exporter due to new tariffs and customs procedures.\n * We lost jobs because companies relocated operations to stay within the EU market post-Brexit.\n * The UK struggled with the increased cost of living caused by skyrocketing prices of imported goods.\n * We witnessed a decline in investment in the UK tech sector, impacting innovation and job opportunities.\n * The UK saw a decline in tourism due to new visa regulations, affecting hospitality businesses.\n * I experienced reduced purchasing power and increased travel expenses due to the drop in the pound's value.\n\n/ai \n\nNegative Financial Impact\n",
+        "model": "gpt-3.5-turbo"
+      },
+      "takeaways": {
+        "sample_size": 30,
+        "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef takeaways(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/takeaways.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['takeaways']['sample_size']\n    prompt = config['takeaways']['prompt']\n    model = config['takeaways']['model']\n\n    model = config.get('model_takeaways', config.get('model', 'gpt3.5-turbo'))\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n        label = generate_takeaways(args_sample, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'takeaways': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_takeaways(args_sample, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = \"\\n\".join(args_sample)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+        "prompt": "/system \n\nYou are an expert research assistant working in a think tank. You will be given a list of arguments that have been made by a cluster of participants during a public consultation. You respond with one or two paragraphs summarizing your main takeaways. You are very concise and write short, snappy sentences which are easy to read. \n \n/human\n\n[\n  \"I firmly believe that gun violence constitutes a severe public health crisis in our society.\",\n  \"We need to address this issue urgently through comprehensive gun control measures.\", \n  \"I support the implementation of universal background checks for all gun buyers\",\n  \"I am in favor of banning assault weapons and high-capacity magazines.\",\n  \"I advocate for stricter regulations to prevent illegal gun trafficking.\",\n  \"Mental health evaluations should be a mandatory part of the gun purchasing process.\"\n]\n\n/ai \n\nParticipants called for comprehensive gun control, emphasizing universal background checks, assault weapon bans, curbing illegal gun trafficking, and prioritizing mental health evaluations.",
+        "model": "gpt-3.5-turbo"
+      },
+      "overview": {
+        "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef overview(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/overview.txt\"\n\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n\n    prompt = config['overview']['prompt']\n    model = config['overview']['model']\n\n    ids = labels['cluster-id'].to_list()\n    takeaways.set_index('cluster-id', inplace=True)\n    labels.set_index('cluster-id', inplace=True)\n\n    input = ''\n    for i, id in enumerate(ids):\n        input += f\"# Cluster {i}/{len(ids)}: {labels.loc[id]['label']}\\n\\n\"\n        input += takeaways.loc[id]['takeaways'] + '\\n\\n'\n\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n\n    with open(path, 'w') as file:\n        file.write(response)\n",
+        "prompt": "/system \n\n\u3042\u306a\u305f\u306f\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u3067\u50cd\u304f\u7814\u7a76\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u306e\u5c02\u9580\u5bb6\u3067\u3059\u3002\u30c1\u30fc\u30e0\u306f\u7279\u5b9a\u306e\u30c8\u30d4\u30c3\u30af\u306b\u3064\u3044\u3066\u306e\u516c\u958b\u5354\u8b70\u3092\u5b9f\u65bd\u3057\u3001\u3055\u307e\u3056\u307e\u306a\u9078\u629e\u80a2\u306e\u30af\u30e9\u30b9\u30bf\u30fc\u3092\u5206\u6790\u3057\u59cb\u3081\u307e\u3057\u305f\u3002\u4eca\u304b\u3089\u3001\u5404\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u7c21\u5358\u306a\u5206\u6790\u3068\u3068\u3082\u306b\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\u3042\u306a\u305f\u306e\u4ed5\u4e8b\u306f\u3001\u305d\u306e\u8abf\u67fb\u7d50\u679c\u306e\u77ed\u3044\u8981\u7d04\u3092\u8fd4\u3059\u3053\u3068\u3067\u3059\u3002\u8981\u7d04\u306f\u975e\u5e38\u306b\u7c21\u6f54\u3067\u306a\u3051\u308c\u3070\u306a\u3089\u305a\uff08\u6700\u5927\u30671\u6bb5\u843d\u30014\u6587\u4ee5\u5185\uff09\u3001\u9673\u8150\u306a\u8868\u73fe\u306f\u907f\u3051\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002",
+        "model": "gpt-3.5-turbo"
+      },
+      "aggregation": {
+        "source_code": "\"\"\"Generate a convenient JSON output file.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nimport json\n\n\ndef aggregation(config):\n\n    path = f\"outputs/{config['output_dir']}/result.json\"\n\n    results = {\n        \"clusters\": [],\n        \"comments\": {},\n        \"translations\": {},\n        \"overview\": \"\",\n        \"config\": config,\n    }\n\n    arguments = pd.read_csv(f\"outputs/{config['output_dir']}/args.csv\")\n    arguments.set_index('arg-id', inplace=True)\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    useful_comment_ids = set(arguments['comment-id'].values)\n    for _, row in comments.iterrows():\n        id = row['comment-id']\n        if id in useful_comment_ids:\n            res = {'comment': row['comment-body']}\n            numeric_cols = ['agrees', 'disagrees']\n            string_cols = ['video', 'interview', 'timestamp']\n            for col in numeric_cols:\n                if col in row:\n                    res[col] = float(row[col])\n            for col in string_cols:\n                if col in row:\n                    res[col] = row[col]\n            results['comments'][str(id)] = res\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) > 0:\n        with open(f\"outputs/{config['output_dir']}/translations.json\") as f:\n            translations = f.read()\n        results['translations'] = json.loads(translations)\n\n    clusters = pd.read_csv(f\"outputs/{config['output_dir']}/clusters.csv\")\n    labels = pd.read_csv(f\"outputs/{config['output_dir']}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{config['output_dir']}/takeaways.csv\")\n    takeaways.set_index('cluster-id', inplace=True)\n\n    with open(f\"outputs/{config['output_dir']}/overview.txt\") as f:\n        overview = f.read()\n    results['overview'] = overview\n\n    for _, row in labels.iterrows():\n        cid = row['cluster-id']\n        label = row['label']\n        arg_rows = clusters[clusters['cluster-id'] == cid]\n        arguments_in_cluster = []\n        for _, arg_row in arg_rows.iterrows():\n            arg_id = arg_row['arg-id']\n            argument = arguments.loc[arg_id]['argument']\n            comment_id = arguments.loc[arg_id]['comment-id']\n            x = float(arg_row['x'])\n            y = float(arg_row['y'])\n            p = float(arg_row['probability'])\n            obj = {\n                'arg_id': arg_id,\n                'argument': argument,\n                'comment_id': str(comment_id),\n                'x': x,\n                'y': y,\n                'p': p,\n            }\n            arguments_in_cluster.append(obj)\n        results['clusters'].append({\n            'cluster': label,\n            'cluster_id': str(cid),\n            'takeaways': takeaways.loc[cid]['takeaways'],\n            'arguments': arguments_in_cluster\n        })\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n"
+      },
+      "visualization": {
+        "replacements": [],
+        "source_code": "\nimport subprocess\n\n\ndef visualization(config):\n    output_dir = config['output_dir']\n    with open(f\"outputs/{output_dir}/result.json\") as f:\n        result = f.read()\n\n    cwd = \"../next-app\"\n    command = f\"REPORT={output_dir} npm run build\"\n\n    try:\n        process = subprocess.Popen(command, shell=True, cwd=cwd, stdout=subprocess.PIPE,\n                                   stderr=subprocess.PIPE, universal_newlines=True)\n        while True:\n            output_line = process.stdout.readline()\n            if output_line == '' and process.poll() is not None:\n                break\n            if output_line:\n                print(output_line.strip())\n        process.wait()\n        errors = process.stderr.read()\n        if errors:\n            print(\"Errors:\")\n            print(errors)\n    except subprocess.CalledProcessError as e:\n        print(\"Error: \", e)\n"
+      },
+      "plan": [
+        {
+          "step": "extraction",
+          "run": false,
+          "reason": "nothing changed"
+        },
+        {
+          "step": "embedding",
+          "run": false,
+          "reason": "nothing changed"
+        },
+        {
+          "step": "clustering",
+          "run": false,
+          "reason": "nothing changed"
+        },
+        {
+          "step": "labelling",
+          "run": false,
+          "reason": "nothing changed"
+        },
+        {
+          "step": "takeaways",
+          "run": false,
+          "reason": "nothing changed"
+        },
+        {
+          "step": "overview",
+          "run": true,
+          "reason": "some parameters changed: prompt"
+        },
+        {
+          "step": "translation",
+          "run": true,
+          "reason": "some dependent steps will re-run: overview"
+        },
+        {
+          "step": "aggregation",
+          "run": true,
+          "reason": "some dependent steps will re-run: overview, translation"
+        },
+        {
+          "step": "visualization",
+          "run": true,
+          "reason": "some dependent steps will re-run: aggregation"
+        }
+      ],
+      "status": "completed",
+      "start_time": "2024-06-17T17:27:49.847450",
+      "completed_jobs": [
+        {
+          "step": "overview",
+          "completed": "2024-06-17T17:27:51.382930",
+          "duration": 1.532751,
+          "params": {
+            "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef overview(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/overview.txt\"\n\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n\n    prompt = config['overview']['prompt']\n    model = config['overview']['model']\n\n    ids = labels['cluster-id'].to_list()\n    takeaways.set_index('cluster-id', inplace=True)\n    labels.set_index('cluster-id', inplace=True)\n\n    input = ''\n    for i, id in enumerate(ids):\n        input += f\"# Cluster {i}/{len(ids)}: {labels.loc[id]['label']}\\n\\n\"\n        input += takeaways.loc[id]['takeaways'] + '\\n\\n'\n\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n\n    with open(path, 'w') as file:\n        file.write(response)\n",
+            "prompt": "/system \n\n\u3042\u306a\u305f\u306f\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u3067\u50cd\u304f\u7814\u7a76\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u306e\u5c02\u9580\u5bb6\u3067\u3059\u3002\u30c1\u30fc\u30e0\u306f\u7279\u5b9a\u306e\u30c8\u30d4\u30c3\u30af\u306b\u3064\u3044\u3066\u306e\u516c\u958b\u5354\u8b70\u3092\u5b9f\u65bd\u3057\u3001\u3055\u307e\u3056\u307e\u306a\u9078\u629e\u80a2\u306e\u30af\u30e9\u30b9\u30bf\u30fc\u3092\u5206\u6790\u3057\u59cb\u3081\u307e\u3057\u305f\u3002\u4eca\u304b\u3089\u3001\u5404\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u7c21\u5358\u306a\u5206\u6790\u3068\u3068\u3082\u306b\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\u3042\u306a\u305f\u306e\u4ed5\u4e8b\u306f\u3001\u305d\u306e\u8abf\u67fb\u7d50\u679c\u306e\u77ed\u3044\u8981\u7d04\u3092\u8fd4\u3059\u3053\u3068\u3067\u3059\u3002\u8981\u7d04\u306f\u975e\u5e38\u306b\u7c21\u6f54\u3067\u306a\u3051\u308c\u3070\u306a\u3089\u305a\uff08\u6700\u5927\u30671\u6bb5\u843d\u30014\u6587\u4ee5\u5185\uff09\u3001\u9673\u8150\u306a\u8868\u73fe\u306f\u907f\u3051\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002",
+            "model": "gpt-3.5-turbo"
+          }
+        },
+        {
+          "step": "translation",
+          "completed": "2024-06-17T17:28:16.324813",
+          "duration": 24.940717,
+          "params": {
+            "model": "gpt-4",
+            "languages": [
+              "Japanese"
+            ],
+            "flags": [],
+            "source_code": "\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages\nfrom langchain.schema import AIMessage\nimport pandas as pd\nimport json\nfrom tqdm import tqdm\n\n\ndef translation(config):\n\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/translations.json\"\n    results = {}\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) == 0:\n        print(\"No languages specified. Skipping translation step.\")\n        # creating an empty file any, to reduce special casing later\n        with open(path, 'w') as file:\n            json.dump(results, file, indent=2)\n        return\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    with open(f\"outputs/{dataset}/overview.txt\") as f:\n        overview = f.read()\n\n    UI_copy = [\"Argument\", \"Original comment\", \"Representative arguments\",\n               \"Open full-screen map\", \"Back to report\", \"Hide labels\", \"Show labels\",\n               \"Show filters\", \"Hide filters\", \"Min. votes\", \"Consensus\",\n               \"Showing\", \"arguments\", \"Reset zoom\", \"Click anywhere on the map to close this\",\n               \"Click on the dot for details\",\n               \"agree\", \"disagree\", \"Language\", \"English\", \"arguments\", \"of total\",\n               \"Overview\", \"Cluster analysis\", \"Representative comments\", \"Introduction\",\n               \"Clusters\", \"Appendix\", \"This report was generated using an AI pipeline that consists of the following steps\",\n               \"Step\", \"extraction\", \"show code\", \"hide code\", \"show prompt\", \"hide prompt\", \"embedding\",\n               \"clustering\", \"labelling\", \"takeaways\", \"overview\"]\n\n    arg_list = arguments['argument'].to_list() + \\\n        labels['label'].to_list() + \\\n        UI_copy + \\\n        languages\n\n    if 'name' in config:\n        arg_list.append(config['name'])\n    if 'question' in config:\n        arg_list.append(config['question'])\n\n    prompt_file = config.get('translation_prompt', 'default')\n    with open(f\"prompts/translation/{prompt_file}.txt\") as f:\n        prompt = f.read()\n    model = config['model']\n\n    config['translation_prompt'] = prompt\n\n    translations = [translate_lang(\n        arg_list, 10, prompt, lang, model) for lang in languages]\n\n    # handling long takeaways differently, WITHOUT batching too much\n    long_arg_list = takeaways['takeaways'].to_list()\n    long_arg_list.append(overview)\n    if 'intro' in config:\n        long_arg_list.append(config['intro'])\n\n    long_translations = [translate_lang(\n        long_arg_list, 1, prompt, lang, model) for lang in languages]\n\n    for i, id in enumerate(arg_list):\n        print('i, id', i, id)\n        results[str(id)] = list([t[i] for t in translations])\n    for i, id in enumerate(long_arg_list):\n        results[str(id)] = list([t[i] for t in long_translations])\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n\n\ndef translate_lang(arg_list, batch_size, prompt, lang, model):\n    translations = []\n    lang_prompt = prompt.replace(\"{language}\", lang)\n    print(f\"Translating to {lang}...\")\n    for i in tqdm(range(0, len(arg_list), batch_size)):\n        batch = arg_list[i: i + batch_size]\n        translations.extend(translate_batch(batch, lang_prompt, model))\n    return translations\n\n\ndef translate_batch(batch, lang_prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = json.dumps(list(batch))\n    response = llm(messages=messages(lang_prompt, input)).content.strip()\n    if \"```\" in response:\n        response = response.split(\"```\")[1]\n    if response.startswith(\"json\"):\n        response = response[4:]\n    try:\n        parsed = [a.strip() for a in json.loads(response)]\n        if len(parsed) != len(batch):\n            print(\"Warning: batch size mismatch!\")\n            print(\"Batch len:\", len(batch))\n            print(\"Response len:\", len(parsed))\n            for i, item in enumerate(batch):\n                print(f\"Batch item {i}:\", item)\n                if (i < len(parsed)):\n                    print(\"Response:\", parsed[i])\n            if (len(batch) > 1):\n                print(\"Retrying with smaller batches...\")\n                mid = len(batch) // 2\n                return translate_batch(batch[:mid], lang_prompt, model, retries - 1) + \\\n                    translate_batch(\n                        batch[mid:], lang_prompt, model, retries - 1)\n            else:\n                print(\"Retrying batch...\")\n                return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            return parsed\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying batch...\")\n            return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            raise e\n",
+            "prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]"
+          }
+        },
+        {
+          "step": "aggregation",
+          "completed": "2024-06-17T17:28:16.359689",
+          "duration": 0.032478,
+          "params": {
+            "source_code": "\"\"\"Generate a convenient JSON output file.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nimport json\n\n\ndef aggregation(config):\n\n    path = f\"outputs/{config['output_dir']}/result.json\"\n\n    results = {\n        \"clusters\": [],\n        \"comments\": {},\n        \"translations\": {},\n        \"overview\": \"\",\n        \"config\": config,\n    }\n\n    arguments = pd.read_csv(f\"outputs/{config['output_dir']}/args.csv\")\n    arguments.set_index('arg-id', inplace=True)\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    useful_comment_ids = set(arguments['comment-id'].values)\n    for _, row in comments.iterrows():\n        id = row['comment-id']\n        if id in useful_comment_ids:\n            res = {'comment': row['comment-body']}\n            numeric_cols = ['agrees', 'disagrees']\n            string_cols = ['video', 'interview', 'timestamp']\n            for col in numeric_cols:\n                if col in row:\n                    res[col] = float(row[col])\n            for col in string_cols:\n                if col in row:\n                    res[col] = row[col]\n            results['comments'][str(id)] = res\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) > 0:\n        with open(f\"outputs/{config['output_dir']}/translations.json\") as f:\n            translations = f.read()\n        results['translations'] = json.loads(translations)\n\n    clusters = pd.read_csv(f\"outputs/{config['output_dir']}/clusters.csv\")\n    labels = pd.read_csv(f\"outputs/{config['output_dir']}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{config['output_dir']}/takeaways.csv\")\n    takeaways.set_index('cluster-id', inplace=True)\n\n    with open(f\"outputs/{config['output_dir']}/overview.txt\") as f:\n        overview = f.read()\n    results['overview'] = overview\n\n    for _, row in labels.iterrows():\n        cid = row['cluster-id']\n        label = row['label']\n        arg_rows = clusters[clusters['cluster-id'] == cid]\n        arguments_in_cluster = []\n        for _, arg_row in arg_rows.iterrows():\n            arg_id = arg_row['arg-id']\n            argument = arguments.loc[arg_id]['argument']\n            comment_id = arguments.loc[arg_id]['comment-id']\n            x = float(arg_row['x'])\n            y = float(arg_row['y'])\n            p = float(arg_row['probability'])\n            obj = {\n                'arg_id': arg_id,\n                'argument': argument,\n                'comment_id': str(comment_id),\n                'x': x,\n                'y': y,\n                'p': p,\n            }\n            arguments_in_cluster.append(obj)\n        results['clusters'].append({\n            'cluster': label,\n            'cluster_id': str(cid),\n            'takeaways': takeaways.loc[cid]['takeaways'],\n            'arguments': arguments_in_cluster\n        })\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n"
+          }
+        },
+        {
+          "step": "visualization",
+          "completed": "2024-06-17T17:28:20.373642",
+          "duration": 4.013047,
+          "params": {
+            "replacements": [],
+            "source_code": "\nimport subprocess\n\n\ndef visualization(config):\n    output_dir = config['output_dir']\n    with open(f\"outputs/{output_dir}/result.json\") as f:\n        result = f.read()\n\n    cwd = \"../next-app\"\n    command = f\"REPORT={output_dir} npm run build\"\n\n    try:\n        process = subprocess.Popen(command, shell=True, cwd=cwd, stdout=subprocess.PIPE,\n                                   stderr=subprocess.PIPE, universal_newlines=True)\n        while True:\n            output_line = process.stdout.readline()\n            if output_line == '' and process.poll() is not None:\n                break\n            if output_line:\n                print(output_line.strip())\n        process.wait()\n        errors = process.stderr.read()\n        if errors:\n            print(\"Errors:\")\n            print(errors)\n    except subprocess.CalledProcessError as e:\n        print(\"Error: \", e)\n"
+          }
+        }
+      ],
+      "lock_until": "2024-06-17T17:33:20.374581",
+      "current_job": "visualization",
+      "current_job_started": "2024-06-17T17:28:16.360622",
+      "translation_prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]",
+      "previously_completed_jobs": [
+        {
+          "step": "extraction",
+          "completed": "2024-06-17T16:23:32.577199",
+          "duration": 20.694657,
+          "params": {
+            "workers": 3,
+            "limit": 12,
+            "source_code": "import os\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\nimport concurrent.futures\n\n\ndef extraction(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/args.csv\"\n    print(f'path:{path}')\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    print(f'comments.columns:{comments.columns}')\n\n    model = config['extraction']['model']\n    prompt = config['extraction']['prompt']\n    workers = config['extraction']['workers']\n    limit = config['extraction']['limit']\n\n    comment_ids = (comments['comment-id'].values)[:limit]\n    comments.set_index('comment-id', inplace=True)\n    results = pd.DataFrame()\n    update_progress(config, total=len(comment_ids))\n    for i in tqdm(range(0, len(comment_ids), workers)):\n        batch = comment_ids[i: i + workers]\n        batch_inputs = [comments.loc[id]['comment-body'] for id in batch]\n        batch_results = extract_batch(batch_inputs, prompt, model, workers)\n        for comment_id, extracted_args in zip(batch, batch_results):\n            for j, arg in enumerate(extracted_args):\n                new_row = {\"arg-id\": f\"A{comment_id}_{j}\",\n                           \"comment-id\": int(comment_id), \"argument\": arg}\n                results = pd.concat(\n                    [results, pd.DataFrame([new_row])], ignore_index=True)\n        update_progress(config, incr=len(batch))\n    results.to_csv(path, index=False)\n\n\ndef extract_batch(batch, prompt, model, workers):\n    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:\n        futures = [executor.submit(\n            extract_arguments, input, prompt, model) for input in list(batch)]\n        concurrent.futures.wait(futures)\n        return [future.result() for future in futures]\n\n\ndef extract_arguments(input, prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    try:\n        obj = json.loads(response)\n        # LLM sometimes returns valid JSON string\n        if isinstance(obj, str):\n            obj = [obj]\n        items = [a.strip() for a in obj]\n        items = filter(None, items)  # omit empty strings\n        return items\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Input was:\", input)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying...\")\n            return extract_arguments(input, prompt, model, retries - 1)\n        else:\n            print(\"Silently giving up on trying to generate valid list.\")\n            return []\n",
+            "prompt": "/system\n\nYou are a professional research assistant and your job is to help \nme prepare a nice and clean datasets of arguments. \n\nThe context is that we have run a public consultation on the \ntopic of artificial intelligence. I'm going to give you examples \nof arguments that were contributed by the public and I want you \nto help me make them more concise and easy to read. When really \nnecessary, you can also break it down into two separate arguments, \nbut it will often be best to return a single arguments. \n\nPlease return the result as a well-formatted JSON list of strings. \n\n/human\n\nAI technologies should be developed with a focus on reducing their own \nenvironmental impact over their lifecycle.\n\n/ai \n\n[\n  \"We should focus on reducing the environmental impact of AI technologies\"\n]\n\n/human \n\nThere should be a concerted effort to educate the public about the \ncapabilities, limitations, and ethical considerations of AI.\n\n/ai \n\n[\n  \"We should educate the public about the capabilities of AI\",\n  \"We should educate the public about the limitations and ethical considerations of AI\"\n]\n\n/human \n\nAI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\n\n/ ai \n\n[\n  \"AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.\"\n]\n\n/human \n\nAI can help optimize energy grids, reducing waste and carbon emissions.\n\n/ai \n\n[\n  \"AI could optimize energy grids to reduce waste and carbon emissions.\"\n]\n\n",
+            "model": "gpt-3.5-turbo"
+          }
+        },
+        {
+          "step": "embedding",
+          "completed": "2024-06-17T16:23:37.277278",
+          "duration": 4.698366,
+          "params": {
+            "source_code": "\nfrom langchain.embeddings import OpenAIEmbeddings\nimport pandas as pd\nfrom tqdm import tqdm\n\n\ndef embedding(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/embeddings.pkl\"\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    embeddings = []\n    for i in tqdm(range(0, len(arguments), 1000)):\n        args = arguments[\"argument\"].tolist()[i: i + 1000]\n        embeds = OpenAIEmbeddings().embed_documents(args)\n        embeddings.extend(embeds)\n    df = pd.DataFrame(\n        [\n            {\"arg-id\": arguments.iloc[i][\"arg-id\"], \"embedding\": e}\n            for i, e in enumerate(embeddings)\n        ]\n    )\n    df.to_pickle(path)\n"
+          }
+        },
+        {
+          "step": "clustering",
+          "completed": "2024-06-17T16:24:09.063166",
+          "duration": 31.784141,
+          "params": {
+            "clusters": 3,
+            "source_code": "\"\"\"Cluster the arguments using UMAP + HDBSCAN and GPT-4.\"\"\"\n\nimport pandas as pd\nimport numpy as np\nfrom importlib import import_module\n\n\ndef clustering(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/clusters.csv\"\n    arguments_df = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    arguments_array = arguments_df[\"argument\"].values\n\n    embeddings_df = pd.read_pickle(f\"outputs/{dataset}/embeddings.pkl\")\n    embeddings_array = np.asarray(embeddings_df[\"embedding\"].values.tolist())\n    clusters = config['clustering']['clusters']\n\n    result = cluster_embeddings(\n        docs=arguments_array,\n        embeddings=embeddings_array,\n        metadatas={\n            \"arg-id\": arguments_df[\"arg-id\"].values,\n            \"comment-id\": arguments_df[\"comment-id\"].values,\n        },\n        n_topics=clusters,\n    )\n    result.to_csv(path, index=False)\n\n\ndef cluster_embeddings(\n    docs,\n    embeddings,\n    metadatas,\n    min_cluster_size=2,\n    n_components=2,\n    n_topics=6,\n):\n    # (!) we import the following modules dynamically for a reason\n    # (they are slow to load and not required for all pipelines)\n    SpectralClustering = import_module('sklearn.cluster').SpectralClustering\n    stopwords = import_module('nltk.corpus').stopwords\n    HDBSCAN = import_module('hdbscan').HDBSCAN\n    UMAP = import_module('umap').UMAP\n    CountVectorizer = import_module(\n        'sklearn.feature_extraction.text').CountVectorizer\n    BERTopic = import_module('bertopic').BERTopic\n\n    umap_model = UMAP(\n        random_state=42,\n        n_components=n_components,\n    )\n    hdbscan_model = HDBSCAN(min_cluster_size=min_cluster_size)\n\n    stop = stopwords.words(\"english\")\n    vectorizer_model = CountVectorizer(stop_words=stop)\n    topic_model = BERTopic(\n        umap_model=umap_model,\n        hdbscan_model=hdbscan_model,\n        vectorizer_model=vectorizer_model,\n        verbose=True,\n    )\n\n    # Fit the topic model.\n    _, __ = topic_model.fit_transform(docs, embeddings=embeddings)\n\n    n_samples = len(embeddings)\n    n_neighbors = min(n_samples - 1, 10)\n    spectral_model = SpectralClustering(\n        n_clusters=n_topics,\n        affinity=\"nearest_neighbors\",\n        n_neighbors=n_neighbors,  # Use the modified n_neighbors\n        random_state=42\n    )\n    umap_embeds = umap_model.fit_transform(embeddings)\n    cluster_labels = spectral_model.fit_predict(umap_embeds)\n\n    result = topic_model.get_document_info(\n        docs=docs,\n        metadata={\n            **metadatas,\n            \"x\": umap_embeds[:, 0],\n            \"y\": umap_embeds[:, 1],\n        },\n    )\n\n    result.columns = [c.lower() for c in result.columns]\n    result = result[['arg-id', 'x', 'y', 'probability']]\n    result['cluster-id'] = cluster_labels\n\n    return result\n"
+          }
+        },
+        {
+          "step": "labelling",
+          "completed": "2024-06-17T16:24:11.818974",
+          "duration": 2.7544,
+          "params": {
+            "sample_size": 30,
+            "source_code": "\"\"\"Create labels for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef labelling(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/labels.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['labelling']['sample_size']\n    prompt = config['labelling']['prompt']\n    model = config['labelling']['model']\n\n    question = config['question']\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n\n        args_ids_outside = clusters[clusters['cluster-id']\n                                    != cluster_id]['arg-id'].values\n        args_ids_outside = np.random.choice(args_ids_outside, size=min(\n            len(args_ids_outside), sample_size), replace=False)\n        args_sample_outside = arguments[arguments['arg-id']\n                                        .isin(args_ids_outside)]['argument'].values\n\n        label = generate_label(question, args_sample,\n                               args_sample_outside, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'label': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_label(question, args_sample, args_sample_outside, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    outside = '\\n * ' + '\\n * '.join(args_sample_outside)\n    inside = '\\n * ' + '\\n * '.join(args_sample)\n    input = f\"Question of the consultation:{question}\\n\\n\" + \\\n        f\"Examples of arguments OUTSIDE the cluster:\\n {outside}\" + \\\n        f\"Examples of arguments INSIDE the cluster:\\n {inside}\"\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+            "prompt": "/system \n\nYou are a category labeling assistant that generates a category label \nfor a set of arguments within a broader consultation. You are given the main question \nof the consultation, list of arguments inside the cluster, and a list of arguments \noutside this cluster. You answer with a single category label that summarizes the \ncluster. \n\nYou do not include context that is already obvious from the question (for example: \nif the question of the consultation is something like \"what challenges are you facing \nin France\", there is no need to repeat \"in France\" in the cluster label).\n\nThe label must be very concise and just precise enough to capture what distinguishes \nthe cluster from the arguments found outside. \n\n/human\n\nQuestion of the consultation: \"What do you think has been the impact of the UK decision to leave the EU?\"\n\nExamples of arguments OUTSIDE the cluster of interest:\n\n * We faced limitations in educational and cultural exchange opportunities due to exclusion from the Erasmus program.\n * The UK dealt with longer travel times caused by increased border checks, affecting commuters and vacationers.\n * We saw reduced cooperation in environmental standards, hindering efforts to combat climate change.\n * I experienced challenges in patient care due to disruptions in reciprocal healthcare agreements.\n * We faced complexity in residency and citizenship applications for families due to Brexit-related changes.\n * The UK witnessed hindrance in global efforts to address research challenges due to reduced collaboration opportunities.\n * We faced limitations in creative projects due to exclusion from EU cultural funding programs.\n * The UK witnessed setbacks in charitable initiatives and community support due to the loss of EU funding.\n * We experienced challenges in cross-border dispute resolution due to weakened consumer protections.\n * The UK faced limitations in touring EU countries as professional musicians, impacting careers.\n\nExamples of arguments inside the cluster:\n\n * We experienced supply chain disruptions due to Brexit, leading to increased costs and delayed deliveries for businesses.\n * I faced market fluctuations and uncertainties in investments and retirement savings because of Brexit.\n * The UK dealt with reduced profit margins as an exporter due to new tariffs and customs procedures.\n * We lost jobs because companies relocated operations to stay within the EU market post-Brexit.\n * The UK struggled with the increased cost of living caused by skyrocketing prices of imported goods.\n * We witnessed a decline in investment in the UK tech sector, impacting innovation and job opportunities.\n * The UK saw a decline in tourism due to new visa regulations, affecting hospitality businesses.\n * I experienced reduced purchasing power and increased travel expenses due to the drop in the pound's value.\n\n/ai \n\nNegative Financial Impact\n",
+            "model": "gpt-3.5-turbo"
+          }
+        },
+        {
+          "step": "takeaways",
+          "completed": "2024-06-17T16:24:16.390492",
+          "duration": 4.569402,
+          "params": {
+            "sample_size": 30,
+            "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef takeaways(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/takeaways.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['takeaways']['sample_size']\n    prompt = config['takeaways']['prompt']\n    model = config['takeaways']['model']\n\n    model = config.get('model_takeaways', config.get('model', 'gpt3.5-turbo'))\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n        label = generate_takeaways(args_sample, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'takeaways': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_takeaways(args_sample, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = \"\\n\".join(args_sample)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+            "prompt": "/system \n\nYou are an expert research assistant working in a think tank. You will be given a list of arguments that have been made by a cluster of participants during a public consultation. You respond with one or two paragraphs summarizing your main takeaways. You are very concise and write short, snappy sentences which are easy to read. \n \n/human\n\n[\n  \"I firmly believe that gun violence constitutes a severe public health crisis in our society.\",\n  \"We need to address this issue urgently through comprehensive gun control measures.\", \n  \"I support the implementation of universal background checks for all gun buyers\",\n  \"I am in favor of banning assault weapons and high-capacity magazines.\",\n  \"I advocate for stricter regulations to prevent illegal gun trafficking.\",\n  \"Mental health evaluations should be a mandatory part of the gun purchasing process.\"\n]\n\n/ai \n\nParticipants called for comprehensive gun control, emphasizing universal background checks, assault weapon bans, curbing illegal gun trafficking, and prioritizing mental health evaluations.",
+            "model": "gpt-3.5-turbo"
+          }
+        }
+      ],
+      "end_time": "2024-06-17T17:28:20.374576"
+    },
+    "embedding": {
+      "source_code": "\nfrom langchain.embeddings import OpenAIEmbeddings\nimport pandas as pd\nfrom tqdm import tqdm\n\n\ndef embedding(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/embeddings.pkl\"\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    embeddings = []\n    for i in tqdm(range(0, len(arguments), 1000)):\n        args = arguments[\"argument\"].tolist()[i: i + 1000]\n        embeds = OpenAIEmbeddings().embed_documents(args)\n        embeddings.extend(embeds)\n    df = pd.DataFrame(\n        [\n            {\"arg-id\": arguments.iloc[i][\"arg-id\"], \"embedding\": e}\n            for i, e in enumerate(embeddings)\n        ]\n    )\n    df.to_pickle(path)\n"
+    },
+    "labelling": {
+      "sample_size": 30,
+      "source_code": "\"\"\"Create labels for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef labelling(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/labels.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['labelling']['sample_size']\n    prompt = config['labelling']['prompt']\n    model = config['labelling']['model']\n\n    question = config['question']\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n\n        args_ids_outside = clusters[clusters['cluster-id']\n                                    != cluster_id]['arg-id'].values\n        args_ids_outside = np.random.choice(args_ids_outside, size=min(\n            len(args_ids_outside), sample_size), replace=False)\n        args_sample_outside = arguments[arguments['arg-id']\n                                        .isin(args_ids_outside)]['argument'].values\n\n        label = generate_label(question, args_sample,\n                               args_sample_outside, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'label': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_label(question, args_sample, args_sample_outside, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    outside = '\\n * ' + '\\n * '.join(args_sample_outside)\n    inside = '\\n * ' + '\\n * '.join(args_sample)\n    input = f\"Question of the consultation:{question}\\n\\n\" + \\\n        f\"Examples of arguments OUTSIDE the cluster:\\n {outside}\" + \\\n        f\"Examples of arguments INSIDE the cluster:\\n {inside}\"\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+      "prompt": "/system \n\nYou are a category labeling assistant that generates a category label \nfor a set of arguments within a broader consultation. You are given the main question \nof the consultation, list of arguments inside the cluster, and a list of arguments \noutside this cluster. You answer with a single category label that summarizes the \ncluster. \n\nYou do not include context that is already obvious from the question (for example: \nif the question of the consultation is something like \"what challenges are you facing \nin France\", there is no need to repeat \"in France\" in the cluster label).\n\nThe label must be very concise and just precise enough to capture what distinguishes \nthe cluster from the arguments found outside. \n\n/human\n\nQuestion of the consultation: \"What do you think has been the impact of the UK decision to leave the EU?\"\n\nExamples of arguments OUTSIDE the cluster of interest:\n\n * We faced limitations in educational and cultural exchange opportunities due to exclusion from the Erasmus program.\n * The UK dealt with longer travel times caused by increased border checks, affecting commuters and vacationers.\n * We saw reduced cooperation in environmental standards, hindering efforts to combat climate change.\n * I experienced challenges in patient care due to disruptions in reciprocal healthcare agreements.\n * We faced complexity in residency and citizenship applications for families due to Brexit-related changes.\n * The UK witnessed hindrance in global efforts to address research challenges due to reduced collaboration opportunities.\n * We faced limitations in creative projects due to exclusion from EU cultural funding programs.\n * The UK witnessed setbacks in charitable initiatives and community support due to the loss of EU funding.\n * We experienced challenges in cross-border dispute resolution due to weakened consumer protections.\n * The UK faced limitations in touring EU countries as professional musicians, impacting careers.\n\nExamples of arguments inside the cluster:\n\n * We experienced supply chain disruptions due to Brexit, leading to increased costs and delayed deliveries for businesses.\n * I faced market fluctuations and uncertainties in investments and retirement savings because of Brexit.\n * The UK dealt with reduced profit margins as an exporter due to new tariffs and customs procedures.\n * We lost jobs because companies relocated operations to stay within the EU market post-Brexit.\n * The UK struggled with the increased cost of living caused by skyrocketing prices of imported goods.\n * We witnessed a decline in investment in the UK tech sector, impacting innovation and job opportunities.\n * The UK saw a decline in tourism due to new visa regulations, affecting hospitality businesses.\n * I experienced reduced purchasing power and increased travel expenses due to the drop in the pound's value.\n\n/ai \n\nNegative Financial Impact\n",
+      "model": "gpt-3.5-turbo"
+    },
+    "takeaways": {
+      "sample_size": 30,
+      "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef takeaways(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/takeaways.csv\"\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    clusters = pd.read_csv(f\"outputs/{dataset}/clusters.csv\")\n\n    results = pd.DataFrame()\n\n    sample_size = config['takeaways']['sample_size']\n    prompt = config['takeaways']['prompt']\n    model = config['takeaways']['model']\n\n    model = config.get('model_takeaways', config.get('model', 'gpt3.5-turbo'))\n    cluster_ids = clusters['cluster-id'].unique()\n\n    update_progress(config, total=len(cluster_ids))\n\n    for _, cluster_id in tqdm(enumerate(cluster_ids), total=len(cluster_ids)):\n        args_ids = clusters[clusters['cluster-id']\n                            == cluster_id]['arg-id'].values\n        args_ids = np.random.choice(args_ids, size=min(\n            len(args_ids), sample_size), replace=False)\n        args_sample = arguments[arguments['arg-id']\n                                .isin(args_ids)]['argument'].values\n        label = generate_takeaways(args_sample, prompt, model)\n        results = pd.concat([results, pd.DataFrame(\n            [{'cluster-id': cluster_id, 'takeaways': label}])], ignore_index=True)\n        update_progress(config, incr=1)\n\n    results.to_csv(path, index=False)\n\n\ndef generate_takeaways(args_sample, prompt, model):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = \"\\n\".join(args_sample)\n    response = llm(messages=messages(prompt, input)).content.strip()\n    return response\n",
+      "prompt": "/system \n\nYou are an expert research assistant working in a think tank. You will be given a list of arguments that have been made by a cluster of participants during a public consultation. You respond with one or two paragraphs summarizing your main takeaways. You are very concise and write short, snappy sentences which are easy to read. \n \n/human\n\n[\n  \"I firmly believe that gun violence constitutes a severe public health crisis in our society.\",\n  \"We need to address this issue urgently through comprehensive gun control measures.\", \n  \"I support the implementation of universal background checks for all gun buyers\",\n  \"I am in favor of banning assault weapons and high-capacity magazines.\",\n  \"I advocate for stricter regulations to prevent illegal gun trafficking.\",\n  \"Mental health evaluations should be a mandatory part of the gun purchasing process.\"\n]\n\n/ai \n\nParticipants called for comprehensive gun control, emphasizing universal background checks, assault weapon bans, curbing illegal gun trafficking, and prioritizing mental health evaluations.",
+      "model": "gpt-3.5-turbo"
+    },
+    "overview": {
+      "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef overview(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/overview.txt\"\n\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n\n    prompt = config['overview']['prompt']\n    model = config['overview']['model']\n\n    ids = labels['cluster-id'].to_list()\n    takeaways.set_index('cluster-id', inplace=True)\n    labels.set_index('cluster-id', inplace=True)\n\n    input = ''\n    for i, id in enumerate(ids):\n        input += f\"# Cluster {i}/{len(ids)}: {labels.loc[id]['label']}\\n\\n\"\n        input += takeaways.loc[id]['takeaways'] + '\\n\\n'\n\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n\n    with open(path, 'w') as file:\n        file.write(response)\n",
+      "prompt": "/system \n\n\u3042\u306a\u305f\u306f\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u3067\u50cd\u304f\u7814\u7a76\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u306e\u5c02\u9580\u5bb6\u3067\u3059\u3002\n\u30c1\u30fc\u30e0\u306f\u7279\u5b9a\u306e\u30c8\u30d4\u30c3\u30af\u306b\u3064\u3044\u3066\u306e\u516c\u958b\u5354\u8b70\u3092\u5b9f\u65bd\u3057\u3001\u3055\u307e\u3056\u307e\u306a\u9078\u629e\u80a2\u306e\u30af\u30e9\u30b9\u30bf\u30fc\u3092\u5206\u6790\u3057\u59cb\u3081\u307e\u3057\u305f\u3002\n\u4eca\u304b\u3089\u3001\u5404\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u7c21\u5358\u306a\u5206\u6790\u3068\u3068\u3082\u306b\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\u3042\u306a\u305f\u306e\u4ed5\u4e8b\u306f\u3001\u305d\u306e\u8abf\u67fb\u7d50\u679c\u306e\u77ed\u3044\u65e5\u672c\u8a9e\u306e\u8981\u7d04\u3092\u8fd4\u3059\u3053\u3068\u3067\u3059\u3002\n\u8981\u7d04\u306f\u975e\u5e38\u306b\u7c21\u6f54\u3067\u306a\u3051\u308c\u3070\u306a\u3089\u305a\uff08\u6700\u5927\u30671\u6bb5\u843d\u30014\u6587\u4ee5\u5185\uff09\u3001\u9673\u8150\u306a\u8868\u73fe\u306f\u907f\u3051\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002",
+      "model": "gpt-3.5-turbo"
+    },
+    "aggregation": {
+      "source_code": "\"\"\"Generate a convenient JSON output file.\"\"\"\n\nfrom tqdm import tqdm\nfrom typing import List\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nimport json\n\n\ndef aggregation(config):\n\n    path = f\"outputs/{config['output_dir']}/result.json\"\n\n    results = {\n        \"clusters\": [],\n        \"comments\": {},\n        \"translations\": {},\n        \"overview\": \"\",\n        \"config\": config,\n    }\n\n    arguments = pd.read_csv(f\"outputs/{config['output_dir']}/args.csv\")\n    arguments.set_index('arg-id', inplace=True)\n\n    comments = pd.read_csv(f\"inputs/{config['input']}.csv\")\n    useful_comment_ids = set(arguments['comment-id'].values)\n    for _, row in comments.iterrows():\n        id = row['comment-id']\n        if id in useful_comment_ids:\n            res = {'comment': row['comment-body']}\n            numeric_cols = ['agrees', 'disagrees']\n            string_cols = ['video', 'interview', 'timestamp']\n            for col in numeric_cols:\n                if col in row:\n                    res[col] = float(row[col])\n            for col in string_cols:\n                if col in row:\n                    res[col] = row[col]\n            results['comments'][str(id)] = res\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) > 0:\n        with open(f\"outputs/{config['output_dir']}/translations.json\") as f:\n            translations = f.read()\n        results['translations'] = json.loads(translations)\n\n    clusters = pd.read_csv(f\"outputs/{config['output_dir']}/clusters.csv\")\n    labels = pd.read_csv(f\"outputs/{config['output_dir']}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{config['output_dir']}/takeaways.csv\")\n    takeaways.set_index('cluster-id', inplace=True)\n\n    with open(f\"outputs/{config['output_dir']}/overview.txt\") as f:\n        overview = f.read()\n    results['overview'] = overview\n\n    for _, row in labels.iterrows():\n        cid = row['cluster-id']\n        label = row['label']\n        arg_rows = clusters[clusters['cluster-id'] == cid]\n        arguments_in_cluster = []\n        for _, arg_row in arg_rows.iterrows():\n            arg_id = arg_row['arg-id']\n            argument = arguments.loc[arg_id]['argument']\n            comment_id = arguments.loc[arg_id]['comment-id']\n            x = float(arg_row['x'])\n            y = float(arg_row['y'])\n            p = float(arg_row['probability'])\n            obj = {\n                'arg_id': arg_id,\n                'argument': argument,\n                'comment_id': str(comment_id),\n                'x': x,\n                'y': y,\n                'p': p,\n            }\n            arguments_in_cluster.append(obj)\n        results['clusters'].append({\n            'cluster': label,\n            'cluster_id': str(cid),\n            'takeaways': takeaways.loc[cid]['takeaways'],\n            'arguments': arguments_in_cluster\n        })\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n"
+    },
+    "visualization": {
+      "replacements": [],
+      "source_code": "\nimport subprocess\n\n\ndef visualization(config):\n    output_dir = config['output_dir']\n    with open(f\"outputs/{output_dir}/result.json\") as f:\n        result = f.read()\n\n    cwd = \"../next-app\"\n    command = f\"REPORT={output_dir} npm run build\"\n\n    try:\n        process = subprocess.Popen(command, shell=True, cwd=cwd, stdout=subprocess.PIPE,\n                                   stderr=subprocess.PIPE, universal_newlines=True)\n        while True:\n            output_line = process.stdout.readline()\n            if output_line == '' and process.poll() is not None:\n                break\n            if output_line:\n                print(output_line.strip())\n        process.wait()\n        errors = process.stderr.read()\n        if errors:\n            print(\"Errors:\")\n            print(errors)\n    except subprocess.CalledProcessError as e:\n        print(\"Error: \", e)\n"
+    },
+    "plan": [
+      {
+        "step": "extraction",
+        "run": false,
+        "reason": "nothing changed"
+      },
+      {
+        "step": "embedding",
+        "run": false,
+        "reason": "nothing changed"
+      },
+      {
+        "step": "clustering",
+        "run": false,
+        "reason": "nothing changed"
+      },
+      {
+        "step": "labelling",
+        "run": false,
+        "reason": "nothing changed"
+      },
+      {
+        "step": "takeaways",
+        "run": false,
+        "reason": "nothing changed"
+      },
+      {
+        "step": "overview",
+        "run": true,
+        "reason": "some parameters changed: prompt"
+      },
+      {
+        "step": "translation",
+        "run": true,
+        "reason": "some dependent steps will re-run: overview"
+      },
+      {
+        "step": "aggregation",
+        "run": true,
+        "reason": "some dependent steps will re-run: overview, translation"
+      },
+      {
+        "step": "visualization",
+        "run": true,
+        "reason": "some dependent steps will re-run: aggregation"
+      }
+    ],
+    "status": "running",
+    "start_time": "2024-06-19T10:00:43.992805",
+    "completed_jobs": [
+      {
+        "step": "overview",
+        "completed": "2024-06-19T10:00:48.401663",
+        "duration": 4.401894,
+        "params": {
+          "source_code": "\"\"\"Create summaries for the clusters.\"\"\"\n\nfrom tqdm import tqdm\nimport os\nfrom typing import List\nimport numpy as np\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages, update_progress\n\n\ndef overview(config):\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/overview.txt\"\n\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n\n    prompt = config['overview']['prompt']\n    model = config['overview']['model']\n\n    ids = labels['cluster-id'].to_list()\n    takeaways.set_index('cluster-id', inplace=True)\n    labels.set_index('cluster-id', inplace=True)\n\n    input = ''\n    for i, id in enumerate(ids):\n        input += f\"# Cluster {i}/{len(ids)}: {labels.loc[id]['label']}\\n\\n\"\n        input += takeaways.loc[id]['takeaways'] + '\\n\\n'\n\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    response = llm(messages=messages(prompt, input)).content.strip()\n\n    with open(path, 'w') as file:\n        file.write(response)\n",
+          "prompt": "/system \n\n\u3042\u306a\u305f\u306f\u30b7\u30f3\u30af\u30bf\u30f3\u30af\u3067\u50cd\u304f\u7814\u7a76\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u306e\u5c02\u9580\u5bb6\u3067\u3059\u3002\n\u30c1\u30fc\u30e0\u306f\u7279\u5b9a\u306e\u30c8\u30d4\u30c3\u30af\u306b\u3064\u3044\u3066\u306e\u516c\u958b\u5354\u8b70\u3092\u5b9f\u65bd\u3057\u3001\u3055\u307e\u3056\u307e\u306a\u9078\u629e\u80a2\u306e\u30af\u30e9\u30b9\u30bf\u30fc\u3092\u5206\u6790\u3057\u59cb\u3081\u307e\u3057\u305f\u3002\n\u4eca\u304b\u3089\u3001\u5404\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u7c21\u5358\u306a\u5206\u6790\u3068\u3068\u3082\u306b\u30af\u30e9\u30b9\u30bf\u30fc\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\u3042\u306a\u305f\u306e\u4ed5\u4e8b\u306f\u3001\u305d\u306e\u8abf\u67fb\u7d50\u679c\u306e\u77ed\u3044\u65e5\u672c\u8a9e\u306e\u8981\u7d04\u3092\u8fd4\u3059\u3053\u3068\u3067\u3059\u3002\n\u8981\u7d04\u306f\u975e\u5e38\u306b\u7c21\u6f54\u3067\u306a\u3051\u308c\u3070\u306a\u3089\u305a\uff08\u6700\u5927\u30671\u6bb5\u843d\u30014\u6587\u4ee5\u5185\uff09\u3001\u9673\u8150\u306a\u8868\u73fe\u306f\u907f\u3051\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002",
+          "model": "gpt-3.5-turbo"
+        }
+      },
+      {
+        "step": "translation",
+        "completed": "2024-06-19T10:01:16.278317",
+        "duration": 27.875201,
+        "params": {
+          "model": "gpt-4",
+          "languages": [
+            "Japanese"
+          ],
+          "flags": [],
+          "source_code": "\nimport json\nfrom tqdm import tqdm\nimport pandas as pd\nfrom langchain.chat_models import ChatOpenAI\nfrom utils import messages\nfrom langchain.schema import AIMessage\nimport pandas as pd\nimport json\nfrom tqdm import tqdm\n\n\ndef translation(config):\n\n    dataset = config['output_dir']\n    path = f\"outputs/{dataset}/translations.json\"\n    results = {}\n\n    languages = list(config.get('translation', {}).get('languages', []))\n    if len(languages) == 0:\n        print(\"No languages specified. Skipping translation step.\")\n        # creating an empty file any, to reduce special casing later\n        with open(path, 'w') as file:\n            json.dump(results, file, indent=2)\n        return\n\n    arguments = pd.read_csv(f\"outputs/{dataset}/args.csv\")\n    labels = pd.read_csv(f\"outputs/{dataset}/labels.csv\")\n    takeaways = pd.read_csv(f\"outputs/{dataset}/takeaways.csv\")\n    with open(f\"outputs/{dataset}/overview.txt\") as f:\n        overview = f.read()\n\n    UI_copy = [\"Argument\", \"Original comment\", \"Representative arguments\",\n               \"Open full-screen map\", \"Back to report\", \"Hide labels\", \"Show labels\",\n               \"Show filters\", \"Hide filters\", \"Min. votes\", \"Consensus\",\n               \"Showing\", \"arguments\", \"Reset zoom\", \"Click anywhere on the map to close this\",\n               \"Click on the dot for details\",\n               \"agree\", \"disagree\", \"Language\", \"English\", \"arguments\", \"of total\",\n               \"Overview\", \"Cluster analysis\", \"\u4ee3\u8868\u7684\u306a\u30b3\u30e1\u30f3\u30c8\", \"Introduction\",\n               \"Clusters\", \"Appendix\", \"This report was generated using an AI pipeline that consists of the following steps\",\n               \"Step\", \"extraction\", \"show code\", \"hide code\", \"show prompt\", \"hide prompt\", \"embedding\",\n               \"clustering\", \"labelling\", \"takeaways\", \"overview\"]\n\n    arg_list = arguments['argument'].to_list() + \\\n        labels['label'].to_list() + \\\n        UI_copy + \\\n        languages\n\n    if 'name' in config:\n        arg_list.append(config['name'])\n    if 'question' in config:\n        arg_list.append(config['question'])\n\n    prompt_file = config.get('translation_prompt', 'default')\n    with open(f\"prompts/translation/{prompt_file}.txt\") as f:\n        prompt = f.read()\n    model = config['model']\n\n    config['translation_prompt'] = prompt\n\n    translations = [translate_lang(\n        arg_list, 10, prompt, lang, model) for lang in languages]\n\n    # handling long takeaways differently, WITHOUT batching too much\n    long_arg_list = takeaways['takeaways'].to_list()\n    long_arg_list.append(overview)\n    if 'intro' in config:\n        long_arg_list.append(config['intro'])\n\n    long_translations = [translate_lang(\n        long_arg_list, 1, prompt, lang, model) for lang in languages]\n\n    for i, id in enumerate(arg_list):\n        print('i, id', i, id)\n        results[str(id)] = list([t[i] for t in translations])\n    for i, id in enumerate(long_arg_list):\n        results[str(id)] = list([t[i] for t in long_translations])\n\n    with open(path, 'w') as file:\n        json.dump(results, file, indent=2)\n\n\ndef translate_lang(arg_list, batch_size, prompt, lang, model):\n    translations = []\n    lang_prompt = prompt.replace(\"{language}\", lang)\n    print(f\"Translating to {lang}...\")\n    for i in tqdm(range(0, len(arg_list), batch_size)):\n        batch = arg_list[i: i + batch_size]\n        translations.extend(translate_batch(batch, lang_prompt, model))\n    return translations\n\n\ndef translate_batch(batch, lang_prompt, model, retries=3):\n    llm = ChatOpenAI(model_name=model, temperature=0.0)\n    input = json.dumps(list(batch))\n    response = llm(messages=messages(lang_prompt, input)).content.strip()\n    if \"```\" in response:\n        response = response.split(\"```\")[1]\n    if response.startswith(\"json\"):\n        response = response[4:]\n    try:\n        parsed = [a.strip() for a in json.loads(response)]\n        if len(parsed) != len(batch):\n            print(\"Warning: batch size mismatch!\")\n            print(\"Batch len:\", len(batch))\n            print(\"Response len:\", len(parsed))\n            for i, item in enumerate(batch):\n                print(f\"Batch item {i}:\", item)\n                if (i < len(parsed)):\n                    print(\"Response:\", parsed[i])\n            if (len(batch) > 1):\n                print(\"Retrying with smaller batches...\")\n                mid = len(batch) // 2\n                return translate_batch(batch[:mid], lang_prompt, model, retries - 1) + \\\n                    translate_batch(\n                        batch[mid:], lang_prompt, model, retries - 1)\n            else:\n                print(\"Retrying batch...\")\n                return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            return parsed\n    except json.decoder.JSONDecodeError as e:\n        print(\"JSON error:\", e)\n        print(\"Response was:\", response)\n        if retries > 0:\n            print(\"Retrying batch...\")\n            return translate_batch(batch, lang_prompt, model, retries - 1)\n        else:\n            raise e\n",
+          "prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]"
+        }
+      }
+    ],
+    "lock_until": "2024-06-19T10:06:16.280133",
+    "current_job": "aggregation",
+    "current_job_started": "2024-06-19T10:01:16.280120",
+    "translation_prompt": "/system \n\n[\n\u3042\u306a\u305f\u306f\u30d7\u30ed\u306e\u7ffb\u8a33\u5bb6\u3067\u3059\u3002\n\u5358\u8a9e\u3084\u6587\u306e\u30ea\u30b9\u30c8\u3092\u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\n\u540c\u3058\u30ea\u30b9\u30c8\u3092\u3001\u540c\u3058\u9806\u756a\u3067\u3001{\u8a00\u8a9e}\u306b\u7ffb\u8a33\u3057\u3066\u8fd4\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n\u30aa\u30ea\u30b8\u30ca\u30eb\u306e\u30ea\u30b9\u30c8\u3068\u540c\u3058\u9577\u3055\u306e\u6709\u52b9\u306aJSON\u6587\u5b57\u5217\u30ea\u30b9\u30c8\u3092\u8fd4\u3059\u3088\u3046\u306b\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n]"
+  }
+}
