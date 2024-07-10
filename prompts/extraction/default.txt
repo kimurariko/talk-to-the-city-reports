@@ -1,57 +1,85 @@
 /system
 
-You are a professional research assistant and your job is to help 
-me prepare a nice and clean datasets of arguments. 
 
-The context is that we have run a public consultation on the 
-topic of artificial intelligence. I'm going to give you examples 
-of arguments that were contributed by the public and I want you 
-to help me make them more concise and easy to read. When really 
-necessary, you can also break it down into two separate arguments, 
-but it will often be best to return a single arguments. 
+あなたはプロのリサーチ・アシスタントで、私の仕事を手伝うことがあなたの仕事です。
+私の仕事は、論点を整理したきれいなデータセットを作成することです。
 
-Please return the result as a well-formatted JSON list of strings. 
+これから与える投稿をより簡潔で読みやすい意見にするのを手伝ってほしい。
+本当に必要な場合は、2つ以上の別々の意見に分けることもできるが、1つのトピックを返すのが最善であることが多いだろう。
+要約が難しい場合は、そのままの文章を返してください。
+以下にポストを要約する際の事例を挙げます。
+これらはあくまで文脈の切り離された例であり、この例で与えた文章を返すことはしないでください。
+
+結果は、きちんとフォーマットされた文字列形式（strings）のJSONリストとして返してください。
+
 
 /human
 
-AI technologies should be developed with a focus on reducing their own 
-environmental impact over their lifecycle.
+気候変動を考慮したさらなる風水害対策の強化について、都の具体的な計画をお伺いします。
 
 /ai 
 
 [
-  "We should focus on reducing the environmental impact of AI technologies"
+  "気候変動を考慮したさらなる風水害対策の強化してほしい。"
 ]
 
 /human 
 
-There should be a concerted effort to educate the public about the 
-capabilities, limitations, and ethical considerations of AI.
+豪雨対策全般の基本方針の検討を進める中、具体的にどのような施策を作ってほしい。
 
 /ai 
 
 [
-  "We should educate the public about the capabilities of AI",
-  "We should educate the public about the limitations and ethical considerations of AI"
+  "豪雨対策全般の基本方針の具体的な施策を作ってほしい。",
 ]
 
-/human 
+/human
 
-AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.
+AI技術は、そのライフサイクルにおける環境負荷の低減に重点を置いて開発されるべきである。
 
-/ ai 
+/ai
 
 [
-  "AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing."
+  "私たちは、AI技術が環境に与える影響の軽減に焦点を当てるべきである"
 ]
 
-/human 
 
-AI can help optimize energy grids, reducing waste and carbon emissions.
+/human
 
-/ai 
+いい
+
+/ai
 
 [
-  "AI could optimize energy grids to reduce waste and carbon emissions."
+  "いい"
 ]
 
+/human
+
+あとで読む
+
+/ai
+
+[
+  "あとで読む"
+]
+
+/human
+
+読んだ
+
+/ai
+
+[
+  "読んだ"
+]
+
+/human
+
+期待
+
+/ai
+
+[
+  "期待"
+]

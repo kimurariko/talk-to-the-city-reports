@@ -1,46 +1,40 @@
 /system 
 
-You are a category labeling assistant that generates a category label 
-for a set of arguments within a broader consultation. You are given the main question 
-of the consultation, list of arguments inside the cluster, and a list of arguments 
-outside this cluster. You answer with a single category label that summarizes the 
-cluster. 
+あなたは、より広範なコンサルテーション内の一連の議論に対するカテゴリラベルを生成するカテゴリラベリングアシスタントです。あなたには、相談の主な質問、クラスタ内の議論のリスト、およびこのクラスタ外の議論のリストが与えられます。あなたはクラスターを要約する1つのカテゴリーラベルで回答します。
 
-You do not include context that is already obvious from the question (for example: 
-if the question of the consultation is something like "what challenges are you facing 
-in France", there is no need to repeat "in France" in the cluster label).
+質問からすでに明らかな文脈は含めない（例えば、相談の質問が「フランスでどのような課題に直面しているか」のようなものであれば、クラスターのラベルに「フランスで」と繰り返す必要はない）。
 
-The label must be very concise and just precise enough to capture what distinguishes 
-the cluster from the arguments found outside. 
+ラベルは非常に簡潔でなければならず、クラスターとその外側にある論点を区別するのに十分な正確さでなければならない。
 
 /human
 
-Question of the consultation: "What do you think has been the impact of the UK decision to leave the EU?"
+コンサルテーションの質問 「英国のEU離脱決定の影響は何だと思いますか？
 
-Examples of arguments OUTSIDE the cluster of interest:
+関心のあるクラスター以外の論点の例
 
- * We faced limitations in educational and cultural exchange opportunities due to exclusion from the Erasmus program.
- * The UK dealt with longer travel times caused by increased border checks, affecting commuters and vacationers.
- * We saw reduced cooperation in environmental standards, hindering efforts to combat climate change.
- * I experienced challenges in patient care due to disruptions in reciprocal healthcare agreements.
- * We faced complexity in residency and citizenship applications for families due to Brexit-related changes.
- * The UK witnessed hindrance in global efforts to address research challenges due to reduced collaboration opportunities.
- * We faced limitations in creative projects due to exclusion from EU cultural funding programs.
- * The UK witnessed setbacks in charitable initiatives and community support due to the loss of EU funding.
- * We experienced challenges in cross-border dispute resolution due to weakened consumer protections.
- * The UK faced limitations in touring EU countries as professional musicians, impacting careers.
+ * エラスムス・プログラムからの除外により、教育・文化交流の機会が制限された。
+ * 英国は、国境検問の強化による旅行時間の延長に対処し、通勤客や旅行客に影響を与えた。
+ * 環境基準における協力が減少し、気候変動と闘う努力が妨げられた。
+ * 相互医療協定の中断により、患者ケアに課題を感じた。
+ * Brexit関連の変更により、家族の居住権や市民権の申請が複雑になった。
+ * 英国は、共同研究機会の減少により、研究の課題に取り組む世界的な取り組みに支障をきたすことを目の当たりにした。
+ * EUの文化助成プログラムからの除外により、創造的なプロジェクトの制限に直面した。
+ * 英国は、EUの資金提供の喪失により、慈善活動やコミュニティ支援の後退を目の当たりにした。
+ * 消費者保護の弱体化により、国境を越えた紛争解決に課題が生じた。
+ * 英国はプロの音楽家としてEU諸国をツアーする際の制限に直面し、キャリアに影響を与えた。
 
-Examples of arguments inside the cluster:
+クラスター内部での議論の例
 
- * We experienced supply chain disruptions due to Brexit, leading to increased costs and delayed deliveries for businesses.
- * I faced market fluctuations and uncertainties in investments and retirement savings because of Brexit.
- * The UK dealt with reduced profit margins as an exporter due to new tariffs and customs procedures.
- * We lost jobs because companies relocated operations to stay within the EU market post-Brexit.
- * The UK struggled with the increased cost of living caused by skyrocketing prices of imported goods.
- * We witnessed a decline in investment in the UK tech sector, impacting innovation and job opportunities.
- * The UK saw a decline in tourism due to new visa regulations, affecting hospitality businesses.
- * I experienced reduced purchasing power and increased travel expenses due to the drop in the pound's value.
+ * Brexitによりサプライチェーンが混乱し、企業にとってコスト増と納期遅延につながった。
+ * ブレグジットのため、市場の変動や投資・退職金の不確実性に直面した。
+ * 新たな関税や通関手続きにより、英国は輸出業者として利益率の低下に対処した。
+ * ブレグジット後、企業がEU市場内にとどまるために事業を移転したため、雇用を失った。
+ * 英国は輸入品価格の高騰による生活費の増加に苦しんだ。
+ * 英国のハイテク産業への投資が減少し、技術革新と雇用機会に影響を与えた。
+ * 新たなビザ規制による観光客の減少を目の当たりにし、接客業に影響。
+ * ポンド価値の下落により購買力が低下し、旅費が増加した。
+
 
 /ai 
 
-Negative Financial Impact
+財務上のマイナス影響

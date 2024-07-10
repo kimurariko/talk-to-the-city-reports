@@ -1,35 +1,33 @@
-
 import json
 from tqdm import tqdm
 import pandas as pd
 from langchain.chat_models import ChatOpenAI
 from utils import messages
 from langchain.schema import AIMessage
-import pandas as pd
-import json
-from tqdm import tqdm
-
 
 def translation(config):
-
+    # 出力ディレクトリと保存先パスを設定
     dataset = config['output_dir']
     path = f"outputs/{dataset}/translations.json"
     results = {}
 
+    # 言語設定を取得
     languages = list(config.get('translation', {}).get('languages', []))
     if len(languages) == 0:
         print("No languages specified. Skipping translation step.")
-        # creating an empty file any, to reduce special casing later
+        # 特殊な処理を減らすために空のファイルを作成
         with open(path, 'w') as file:
             json.dump(results, file, indent=2)
         return
 
+    # 各種データファイルを読み込む
     arguments = pd.read_csv(f"outputs/{dataset}/args.csv")
     labels = pd.read_csv(f"outputs/{dataset}/labels.csv")
     takeaways = pd.read_csv(f"outputs/{dataset}/takeaways.csv")
     with open(f"outputs/{dataset}/overview.txt") as f:
         overview = f.read()
 
+    # UIで使用する文言をリスト化
     UI_copy = ["Argument", "Original comment", "Representative arguments",
                "Open full-screen map", "Back to report", "Hide labels", "Show labels",
                "Show filters", "Hide filters", "Min. votes", "Consensus",
@@ -41,17 +39,19 @@ def translation(config):
                "Step", "extraction", "show code", "hide code", "show prompt", "hide prompt", "embedding",
                "clustering", "labelling", "takeaways", "overview"]
 
+    # 各データをリストに追加
     arg_list = arguments['argument'].to_list() + \
         labels['label'].to_list() + \
         UI_copy + \
         languages
 
+    # configに'name'や'question'があれば追加
     if 'name' in config:
         arg_list.append(config['name'])
     if 'question' in config:
         arg_list.append(config['question'])
         
-    # TODO　このコードでなぜconfig.get('translation_prompt', 'default')にしているのかわからない。調べる。
+    # 翻訳プロンプトを読み込む
     prompt_file = config.get('translation_prompt', 'default')
     with open(f"prompts/translation/{prompt_file}.txt") as f:
         prompt = f.read()
@@ -59,10 +59,11 @@ def translation(config):
 
     config['translation_prompt'] = prompt
 
+    # 指定された言語に対して翻訳を実行
     translations = [translate_lang(
         arg_list, 10, prompt, lang, model) for lang in languages]
 
-    # handling long takeaways differently, WITHOUT batching too much
+    # 長いテイクアウェイや概要を別途翻訳
     long_arg_list = takeaways['takeaways'].to_list()
     long_arg_list.append(overview)
     if 'intro' in config:
@@ -71,17 +72,19 @@ def translation(config):
     long_translations = [translate_lang(
         long_arg_list, 1, prompt, lang, model) for lang in languages]
 
+    # 結果をまとめる
     for i, id in enumerate(arg_list):
         print('i, id', i, id)
         results[str(id)] = list([t[i] for t in translations])
     for i, id in enumerate(long_arg_list):
         results[str(id)] = list([t[i] for t in long_translations])
 
+    # 結果をJSONファイルとして保存
     with open(path, 'w') as file:
         json.dump(results, file, indent=2)
 
-
 def translate_lang(arg_list, batch_size, prompt, lang, model):
+    # 指定された言語に翻訳を実行するヘルパー関数
     translations = []
     lang_prompt = prompt.replace("{language}", lang)
     print(f"Translating to {lang}...")
@@ -90,8 +93,8 @@ def translate_lang(arg_list, batch_size, prompt, lang, model):
         translations.extend(translate_batch(batch, lang_prompt, model))
     return translations
 
-
 def translate_batch(batch, lang_prompt, model, retries=3):
+    # バッチごとに翻訳を実行するヘルパー関数
     llm = ChatOpenAI(model_name=model, temperature=0.0)
     input = json.dumps(list(batch))
     response = llm(messages=messages(lang_prompt, input)).content.strip()
