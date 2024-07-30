@@ -4,11 +4,11 @@
   "input": "my-data",
   "model": "gpt-4",
   "extraction": {
-    "workers": 10,
-    "limit": 1000
+    "workers": 11,
+    "limit": 50
   },
   "clustering": {
-    "clusters": 7
+    "clusters": 10
   },
   "translation": {
     "model": "gpt-4" 

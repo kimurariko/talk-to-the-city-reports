@@ -36,14 +36,17 @@ def extraction(config):
         for comment_id, extracted_args in zip(batch, batch_results):
             for j, arg in enumerate(extracted_args):
                 new_row = {"arg-id": f"A{comment_id}_{j}",
-                           "comment-id": int(comment_id), "argument": arg}
+                           "comment-id": int(comment_id), 
+                           "categoryLabel": comments.loc[comment_id]['labels'],
+                           "kutikomi_unique":comments.loc[comment_id]['kutikomi_unique'],
+                           "koushiki_unique":comments.loc[comment_id]['koushiki_unique'],
+                           "argument": arg}
                 results = pd.concat(
                     [results, pd.DataFrame([new_row])], ignore_index=True)
         update_progress(config, incr=len(batch))
     
     # 結果をCSVファイルに保存
     results.to_csv(path, index=False)
-    print(results.info())
 
 def extract_batch(batch, prompt, model, workers):
     # スレッドプールを使用してバッチ処理
