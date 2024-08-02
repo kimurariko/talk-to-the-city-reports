@@ -4,10 +4,11 @@ import json
 import os
 import traceback
 
+# "specs.json" ファイルを読み込んで仕様を取得
 with open("./specs.json") as f:
     specs = json.load(f)
 
-
+# メッセージのタイプに応じて適切なメッセージオブジェクトを返す関数
 def typed_message(t, m):
     if t == "system":
         return SystemMessage(content=m)
@@ -17,25 +18,25 @@ def typed_message(t, m):
         return AIMessage(content=m)
     raise Exception("Unknown message type in prompt: " + t)
 
-
+# プロンプトと入力からメッセージオブジェクトのリストを作成する関数
 def messages(prompt, input):
-    lines = prompt.strip().splitlines()
+    lines = prompt.strip().splitlines() # プロンプトを行ごとに分割
     results = []
     t = None
     m = ""
     for line in lines:
-        if line.startswith("/"):
+        if line.startswith("/"): # "/"で始まる行はメッセージのタイプを示す
             if t is not None:
                 results.append((t, m))
-            t = line[1:].strip()
+            t = line[1:].strip() # タイプを取得
             m = ""
         else:
-            m += line + "\n"
-    results.append((t, m))
-    results.append(('human', input))
-    return [typed_message(t, m) for (t, m) in results]
+            m += line + "\n" # メッセージ内容を蓄積
+    results.append((t, m)) # 最後のメッセージを追加
+    results.append(('human', input)) # 入力をhumanメッセージとして追加
+    return [typed_message(t, m) for (t, m) in results] # メッセージオブジェクトのリストを返す
 
-
+# コンフィグファイルの妥当性を確認する関数
 def validate_config(config):
     if not 'input' in config:
         raise Exception("Missing required field 'input' in config")
@@ -52,13 +53,11 @@ def validate_config(config):
             valid_options = valid_options + ['prompt', 'model', 'prompt_file']
         for key in config.get(step_spec['step'], {}):
             if key not in valid_options:
-                raise Exception(
-                    f"Unknown option '{key}' for step '{step_spec['step']}' in config")
+                raise Exception(f"Unknown option '{key}' for step '{step_spec['step']}' in config")
 
-
+# 実行すべきステップを決定する関数
 def decide_what_to_run(config, previous):
-
-    # find last previously tracked jobs (digging in case previous run failed)
+    # 以前のジョブを追跡し、必要な情報を収集
     previous_jobs = []
     _previous = config.get('previous', None)
     while _previous and _previous.get('previous', None) != None:
@@ -67,31 +66,26 @@ def decide_what_to_run(config, previous):
         previous_jobs = _previous.get('completed_jobs', []) + \
             _previous.get('previously_completed_jobs', [])
 
-    # utility function to check if params changed
-
+    # パラメータが変更されたかどうかを確認するためのユーティリティ関数
     def different_params(step):
         keys = step['dependencies']['params']
         if step.get('use_llm', False):
-            # automagically track prompt and model for llm jobs
             keys += ['prompt', 'model']
         match = [x for x in previous_jobs if x['step'] == step['step']]
         prev = match[0]['params']
         next = config[step['step']]
-        diff = [key for key in keys if prev.get(
-            key, None) != next.get(key, None)]
+        diff = [key for key in keys if prev.get(key, None) != next.get(key, None)]
         for key in diff:
-            print(
-                f"(!) {step} step parameter '{key}' changed from '{prev.get(key)}' to '{next.get(key)}'")
+            print(f"(!) {step} step parameter '{key}' changed from '{prev.get(key)}' to '{next.get(key)}'")
         return diff
 
-    # figure out which steps need to run and why
+    # 実行が必要なステップとその理由を決定する
     plan = []
     for step in specs:
         stepname = step['step']
         run = True
         reason = None
-        found_prev = len(
-            [x for x in previous_jobs if x['step'] == step['step']]) > 0
+        found_prev = len([x for x in previous_jobs if x['step'] == step['step']]) > 0
         if config.get('force', False):
             reason = 'forced with -f'
         elif config.get('only', None) != None and config['only'] != stepname:
@@ -105,29 +99,26 @@ def decide_what_to_run(config, previous):
             reason = 'previous data not found'
         else:
             deps = step['dependencies']['steps']
-            changing_deps = [x['step'] for x in plan if (x['step']
-                             in deps and x['run'] == True)]
+            changing_deps = [x['step'] for x in plan if (x['step'] in deps and x['run'] == True)]
             if len(changing_deps) > 0:
-                reason = 'some dependent steps will re-run: ' + \
-                    (", ".join(changing_deps))
+                reason = 'some dependent steps will re-run: ' + (", ".join(changing_deps))
             else:
                 diff_params = different_params(step)
                 if len(diff_params) > 0:
                     print('diff_params', diff_params)
-                    reason = 'some parameters changed: ' + \
-                        ", ".join(diff_params)
+                    reason = 'some parameters changed: ' + ", ".join(diff_params)
                 else:
                     run = False
                     reason = 'nothing changed'
         plan.append({'step': stepname, 'run': run, 'reason': reason})
     return plan
 
-
+# 初期化処理を行う関数
 def initialization(sysargv):
-
-    job_file = sysargv[1]#コマンドライン引数からジョブファイルのパスを取得
+    job_file = sysargv[1] # コマンドライン引数からジョブファイルのパスを取得
     job_name = os.path.basename(job_file).split('.')[0]
 
+    # ジョブの設定を読み込む
     with open(job_file) as f:
         config = json.load(f)
 
@@ -144,14 +135,14 @@ def initialization(sysargv):
 
     output_dir = config['output_dir']
 
-    # check if job has run before
+    # 以前のジョブが存在するか確認
     previous = False
     if os.path.exists(f"outputs/{output_dir}/status.json"):
         with open(f"outputs/{output_dir}/status.json") as f:
             previous = json.load(f)
         config['previous'] = previous
 
-    # crash if job is already running and locked
+    # ジョブが既に実行中かどうかを確認
     if previous and previous['status'] == 'running':
         if datetime.fromisoformat(previous['lock_until']) > datetime.now():
             print("Job already running and locked. Try again in 5 minutes.")
@@ -159,43 +150,43 @@ def initialization(sysargv):
         else:
             print("Hum, the last Job crashed a while ago...Proceeding!")
 
-    # set default LLM model
+    # デフォルトのLLMモデルを設定
     if not 'model' in config:
-        config['model'] = 'gpt-3.5-turbo'
+        config['model'] = 'gpt-4'
 
-    # prepare configs for each jobs
+    # 各ジョブの設定を準備
     for step_spec in specs:
         step = step_spec['step']
         if not step in config:
             config[step] = {}
-        # set default option values
+        # オプションのデフォルト値を設定
         if 'options' in step_spec:
             for key, value in step_spec['options'].items():
                 if not key in config[step]:
                     config[step][key] = value
-        # try and include source code
+        # ソースコードを含めようと試みる
         try:
             with open(f"steps/{step}.py") as f:
                 config[step]['source_code'] = f.read()
         except:
             print(f"Warning: could not find source code for step '{step}'")
-        # resolve common options for llm-based jobs
+        # LLMベースのジョブの共通オプションを解決
         if step_spec.get('use_llm', False):
-            # resolve prompt
+            # プロンプトを解決
             if not 'prompt' in config.get(step):
                 file = config.get(step).get('prompt_file', 'default')
                 with open(f"prompts/{step}/{file}.txt") as f:
                     config[step]['prompt'] = f.read()
-            # resolve model
+            # モデルを解決
             if not 'model' in config.get(step):
                 if 'model' in config:
                     config[step]['model'] = config['model']
 
-    # create output directory if needed
+    # 必要なら出力ディレクトリを作成
     if not os.path.exists(f"outputs/{output_dir}"):
         os.makedirs(f"outputs/{output_dir}")
 
-    # check if user is happy with the plan...
+    # 実行計画をユーザーに提示
     plan = decide_what_to_run(config, previous)
     if 'skip-interaction' not in config:
         print('So, here is what I am planning to run:')
@@ -204,7 +195,7 @@ def initialization(sysargv):
         print("Looks good? Press enter to continue or Ctrl+C to abort.")
         input()
 
-    # ready to start!
+    # ジョブのステータスを更新
     update_status(config, {
         'plan': plan,
         'status': 'running',
@@ -213,8 +204,7 @@ def initialization(sysargv):
     })
     return config
 
-
-# (!) make sure to always use this function to update status...
+# ステータスを更新する関数
 def update_status(config, updates):
     output_dir = config['output_dir']
     for key, value in updates.items():
@@ -226,7 +216,7 @@ def update_status(config, updates):
     with open(f"outputs/{output_dir}/status.json", 'w') as file:
         json.dump(config, file, indent=2)
 
-
+# プログレスを更新する関数
 def update_progress(config, incr=None, total=None):
     if total is not None:
         update_status(config, {
@@ -238,22 +228,18 @@ def update_progress(config, incr=None, total=None):
             'current_job_progress': config['current_job_progress'] + incr
         })
 
-
+# 各ステップを実行する関数
 def run_step(step, func, config):
-    # check the plan before running...
     plan = [x for x in config['plan'] if x['step'] == step][0]
     if not plan['run']:
         print(f"Skipping '{step}'")
         return
-    # update status before running...
     update_status(config, {
         'current_job': step,
         'current_job_started': datetime.now().isoformat(),
     })
     print('Running step:', step)
-    # run the step...
     func(config)
-    # update status after running...
     update_status(config, {
         'current_job_progress': None,
         'current_jop_tasks': None,
@@ -267,17 +253,15 @@ def run_step(step, func, config):
         }]
     })
 
-
+# 終了処理を行う関数
 def termination(config, error=None):
     if 'previous' in config:
-        # remember all previously completed jobs
         previously_completed = []
         old_jobs = config['previous'].get('completed_jobs', []) + \
             config['previous'].get('previously_completed_jobs', [])
         newly_completed = [j['step'] for j in config.get('completed_jobs', [])]
         config['previously_completed_jobs'] = [
             o for o in old_jobs if o['step'] not in newly_completed]
-        # now we can drop previous key (we don't want to store infinite history)
         del config['previous']
     if error is None:
         update_status(config, {

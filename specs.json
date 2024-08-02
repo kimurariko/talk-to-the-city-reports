@@ -39,7 +39,33 @@
       "steps": ["clustering"]
     },
     "options": {
-      "sample_size": 30
+      "sample_size": 40
+    },
+    "use_llm": true
+  },
+  {
+    
+    "step": "similarity_verbalization",
+    "filename": "similarity_verbalization.csv",
+    "dependencies": {
+      "params": ["sample_size"],
+      "steps": ["clustering"]
+    },
+    "options": {
+      "sample_size": 40
+    },
+    "use_llm": true
+  },
+  {
+    
+    "step": "difference_verbalization",
+    "filename": "difference_verbalization.csv",
+    "dependencies": {
+      "params": ["sample_size"],
+      "steps": ["clustering"]
+    },
+    "options": {
+      "sample_size": 40
     },
     "use_llm": true
   },
@@ -51,7 +77,7 @@
       "steps": ["clustering"]
     },
     "options": {
-      "sample_size": 30
+      "sample_size": 40
     },
     "use_llm": true
   },
@@ -60,7 +86,7 @@
     "filename": "overview.txt",
     "dependencies": {
       "params": [],
-      "steps": ["labelling", "takeaways"]
+      "steps": ["labelling", "verbalization","takeaways"]
     },
     "options": {},
     "use_llm": true
@@ -70,7 +96,7 @@
     "filename": "translations.json",
     "dependencies": {
       "params": ["languages"],
-      "steps": ["extraction", "labelling", "takeaways", "overview"]
+      "steps": ["extraction", "labelling","verbalization", "takeaways", "overview"]
     },
     "options": {
       "languages": [],
@@ -87,6 +113,7 @@
         "extraction",
         "clustering",
         "labelling",
+        "verbalization",
         "takeaways",
         "overview",
         "translation"

@@ -7,6 +7,8 @@ from steps.embedding import embedding
 from steps.extraction import extraction
 from steps.clustering import clustering
 from steps.labelling import labelling
+from steps.difference_verbalization import difference_verbalization
+from steps.similarity_verbalization import similarity_verbalization
 from steps.takeaways import takeaways
 from steps.overview import overview
 from steps.aggregation import aggregation
@@ -19,13 +21,15 @@ from utils import initialization, termination, run_step
 def main():
 
     config = initialization(sys.argv)
-    #print(config)
+    #utils.py /specs.json
 
     try:
         run_step('extraction', extraction, config)
         run_step('embedding', embedding, config)
         run_step('clustering', clustering, config)
         run_step('labelling', labelling, config)
+        run_step('similarity_verbalization', similarity_verbalization, config)
+        run_step('difference_verbalization', difference_verbalization, config)
         run_step('takeaways', takeaways, config)
         run_step('overview', overview, config)
         run_step('translation', translation, config)

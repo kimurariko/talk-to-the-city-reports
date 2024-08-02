@@ -1,14 +1,14 @@
 {
   "name": "新潟の観光地",
-  "question": "ぽんしゅ館の魅力",
+  "question": "新潟の観光地：日本酒の飲酒体験な土産屋さん：ぽんしゅ館の魅力は？",
   "input": "my-data",
   "model": "gpt-4",
   "extraction": {
     "workers": 11,
-    "limit": 50
+    "limit": 1002
   },
   "clustering": {
-    "clusters": 10
+    "clusters": 25
   },
   "translation": {
     "model": "gpt-4" 

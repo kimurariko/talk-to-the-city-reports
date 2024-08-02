@@ -40,6 +40,7 @@ def extraction(config):
                            "categoryLabel": comments.loc[comment_id]['labels'],
                            "kutikomi_unique":comments.loc[comment_id]['kutikomi_unique'],
                            "koushiki_unique":comments.loc[comment_id]['koushiki_unique'],
+                           "clusters":comments.loc[comment_id]['BERTopic'],
                            "argument": arg}
                 results = pd.concat(
                     [results, pd.DataFrame([new_row])], ignore_index=True)

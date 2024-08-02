@@ -9,7 +9,7 @@ def clustering(config):
     # データセットのパスを設定
     dataset = config['output_dir']
     path = f"outputs/{dataset}/clusters.csv"
-    
+
     # 引数のデータを読み込む
     arguments_df = pd.read_csv(f"outputs/{dataset}/args.csv")
     arguments_array = arguments_df["argument"].values
@@ -17,7 +17,7 @@ def clustering(config):
     # 埋め込みデータを読み込む
     embeddings_df = pd.read_pickle(f"outputs/{dataset}/embeddings.pkl")
     embeddings_array = np.asarray(embeddings_df["embedding"].values.tolist())
-    
+
     # クラスター数を設定
     clusters = config['clustering']['clusters']
 
@@ -54,16 +54,16 @@ def cluster_embeddings(
         random_state=42,
         n_components=n_components,
     )
-    
+
     # HDBSCANモデルを設定
     hdbscan_model = HDBSCAN(min_cluster_size=min_cluster_size)
 
     # ストップワードを設定
     stop = stopwords.words("english")
-    
+
     # ベクトライザーモデルを設定
     vectorizer_model = CountVectorizer(stop_words=stop)
-    
+
     # トピックモデルを設定
     topic_model = BERTopic(
         umap_model=umap_model,
@@ -78,7 +78,7 @@ def cluster_embeddings(
     # サンプル数と近傍数を設定
     n_samples = len(embeddings)
     n_neighbors = min(n_samples - 1, 10)
-    
+
     # スペクトラルクラスタリングモデルを設定
     spectral_model = SpectralClustering(
         n_clusters=n_topics,
@@ -86,11 +86,11 @@ def cluster_embeddings(
         n_neighbors=n_neighbors,  # 修正された近傍数を使用
         random_state=42
     )
-    
+
     # UMAPで次元削減
     # ref:https://mathwords.net/fittransform
     umap_embeds = umap_model.fit_transform(embeddings)
-    
+
     # スペクトラルクラスタリングを適用
     cluster_labels = spectral_model.fit_predict(umap_embeds)
 
@@ -106,7 +106,7 @@ def cluster_embeddings(
 
     # 結果のカラム名を小文字に変換
     result.columns = [c.lower() for c in result.columns]
-    
+
     # 必要なカラムを選択し、クラスタIDを追加
     result = result[['arg-id', 'x', 'y', 'probability']]
     result['cluster-id'] = cluster_labels
